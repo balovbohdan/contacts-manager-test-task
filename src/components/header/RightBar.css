@@ -1,0 +1,20 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    width: 50%;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: all .1s ease;
+
+    color: var(--txt-color-white);
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, .1);
+}

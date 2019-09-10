@@ -1,0 +1,9 @@
+@import url(roboto-fonts.css);
+
+@font-face {
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+    font-family: 'Permanent Marker';
+    src: url('~@fonts/PermanentMarker-Regular.ttf') format('woff');
+}

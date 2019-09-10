@@ -1,0 +1,8 @@
+.main {
+    width: 50%;
+}
+
+.logo {
+    color: var(--txt-color-yellow);
+    font-family: var(--font-marker);
+}
