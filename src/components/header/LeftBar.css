@@ -3,6 +3,13 @@
 }
 
 .logo {
-    color: var(--txt-color-yellow);
-    font-family: var(--font-marker);
+    width: 40px;
+    height:40px;
+
+    cursor: pointer;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(~@img/logo.svg);
 }

@@ -4,6 +4,8 @@
       <w>classnames</w>
       <w>dirname</w>
       <w>esnext</w>
+      <w>postcss</w>
+      <w>preloader</w>
       <w>tsconfig</w>
     </words>
   </dictionary>

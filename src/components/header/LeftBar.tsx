@@ -8,4 +8,4 @@ export const LeftBar = () =>
     </div>;
 
 const Logo = () =>
-    <h3 className={css.logo}>CM</h3>;
+    <div className={css.logo}/>;

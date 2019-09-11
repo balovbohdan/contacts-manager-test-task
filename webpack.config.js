@@ -1,5 +1,6 @@
 const path = require('path');
 const CopyPlugin = require('copy-webpack-plugin');
+const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const TSConfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 
 const c = require('./config');
@@ -41,7 +42,18 @@ module.exports = {
                     'style-loader',
                     {
                         loader: 'css-loader',
-                        options: { modules: true }
+                        options: {
+                            modules: true,
+                            importLoaders: 1
+                        }
+                    },
+                    {
+                        loader: 'postcss-loader',
+                        options: {
+                            config: {
+                                path: path.join(__dirname, 'postcss.config.js')
+                            }
+                        }
                     }
                 ]
             },
@@ -66,9 +78,21 @@ module.exports = {
                         : '[name]-[hash].[ext]'
                 }
             },
+            {
+                loader: 'file-loader',
+                test: /\.svg$/,
+                options: {
+                    name: c.devMode
+                        ? '[name].[ext]'
+                        : '[name]-[hash].[ext]'
+                }
+            }
         ]
     },
     plugins: [
+        new CleanWebpackPlugin({
+            cleanOnceBeforeBuildPatterns: ['./dist/**']
+        }),
         new CopyPlugin([
             {
                 from: 'src/index.html'

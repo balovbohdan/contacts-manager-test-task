@@ -10,9 +10,9 @@
     cursor: pointer;
     padding: 5px 10px;
     border-radius: 3px;
-    transition: all .1s ease;
+    transition: var(--trans);
 
-    color: var(--txt-color-white);
+    color: var(--color-white);
 }
 
 .btn:hover {

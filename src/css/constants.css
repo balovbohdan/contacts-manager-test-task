@@ -1,9 +1,14 @@
 :root {
-    --txt-color-yellow: #FDE74C;
-    --txt-color-white: #F3F7F0;
-
-    --color-header: #16324F;
+    --color-red: #FB4B4E;
+    --blue-color: #16324F;
+    --color-white: #F3F7F0;
+    --color-yellow: #FDE74C;
+    --light-blue-color: #236098;
 
     --font-main: Roboto, serif;
     --font-marker: 'Permanent Marker', serif;
+
+    --header-height: 60px;
+
+    --trans: all .12s ease-in;
 }

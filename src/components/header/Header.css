@@ -1,11 +1,13 @@
+@import url(../../css/constants.css);
+
 .main {
     width: 100vw;
-    height: 60px;
+    height: var(--header-height);
 
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 
     padding: 10px;
-    background: var(--color-header);
+    background: var(--blue-color);
 }

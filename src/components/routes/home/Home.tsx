@@ -1,3 +1,12 @@
 import * as React from 'react';
+import {Fade} from 'react-reveal';
 
-export default () => <h1>home</h1>;
+import {Cover} from '@components/cover';
+
+export default () =>
+    <Animation>
+        <Cover/>
+    </Animation>;
+
+const Animation = ({children}) =>
+        <Fade timeout={400}>{children}</Fade>;
