@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
 
-    background: var(--light-blue-color);
+    background: var(--color-light-blue);
 }
 
 .loader {

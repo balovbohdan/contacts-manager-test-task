@@ -21,6 +21,7 @@ module.exports = {
         minimize: true
     },
     output: {
+        publicPath: '/',
         filename: 'index.js',
         chunkFilename: '[id].js?v=' + c.v,
         path: path.join(__dirname, 'dist')
@@ -106,6 +107,7 @@ module.exports = {
     devServer: {
         port: 9009,
         compress: true,
+        historyApiFallback: true,
         contentBase: path.join(__dirname, 'dist'),
         stats: {
             assets: false,

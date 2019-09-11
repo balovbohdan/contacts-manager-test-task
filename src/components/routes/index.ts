@@ -8,14 +8,19 @@ export type Route = {
     exact?:boolean;
 };
 
+export const paths = {
+    home: '/',
+    contacts: '/contacts'
+};
+
 export const routes:Route[] = [
     {
-        path: '/',
         exact: true,
+        path: paths.home,
         component: Home
     },
     {
-        path: '/contacts',
+        path: paths.contacts,
         component: Contacts
     }
 ];

@@ -1,14 +1,14 @@
 :root {
     --color-red: #FB4B4E;
-    --blue-color: #16324F;
+    --color-blue: #16324F;
     --color-white: #F3F7F0;
     --color-yellow: #FDE74C;
-    --light-blue-color: #236098;
+    --color-light-blue: #236098;
 
     --font-main: Roboto, serif;
     --font-marker: 'Permanent Marker', serif;
 
+    --border-radius: 3px;
     --header-height: 60px;
-
     --trans: all .12s ease-in;
 }

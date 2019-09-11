@@ -3,8 +3,13 @@ import {Route, BrowserRouter} from 'react-router-dom';
 
 import {routes, Route as TRoute} from '@routes';
 
-export const Router = () =>
+type Props = {
+    children:React.ReactNode;
+};
+
+export const Router = ({children}:Props) =>
     <BrowserRouter>
+        {children}
         <Items/>
     </BrowserRouter>;
 

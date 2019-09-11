@@ -28,6 +28,8 @@
       "@img/*": ["../assets/img/*"],
       "@fonts/*": ["../assets/fonts/*"],
       "@components/*": ["components/*"],
+      "@storehouse": ["storehouse"],
+      "@storehouse/*": ["storehouse/*"],
       "@routes": ["components/routes"],
       "@routes/*": ["components/routes/*"]
     }

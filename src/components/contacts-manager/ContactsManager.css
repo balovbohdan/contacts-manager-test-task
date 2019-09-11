@@ -1,0 +1,29 @@
+.main {
+    max-width: 800px;
+    width: calc(100% - 20px);
+
+    margin: 30px auto;
+}
+
+.head {
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.addContactBtn {
+    display: block;
+    cursor: pointer;
+
+    padding: 10px 20px;
+    border-radius: var(--border-radius);
+    background-color: rgba(0, 0, 0, .2);
+
+    color: var(--color-white);
+}
+
+.addContactBtn:hover {
+    transition: var(--trans);
+    background-color: rgba(0, 0, 0, .3);
+}

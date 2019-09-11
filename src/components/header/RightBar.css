@@ -9,8 +9,8 @@
 .btn {
     cursor: pointer;
     padding: 5px 10px;
-    border-radius: 3px;
     transition: var(--trans);
+    border-radius: var(--border-radius);
 
     color: var(--color-white);
 }

@@ -1,4 +1,7 @@
 import * as React from 'react';
+import {Link} from 'react-router-dom';
+
+import {paths} from '@routes';
 
 import css from './Cover.css';
 
@@ -18,6 +21,6 @@ const Slogan = () =>
     </h1>;
 
 const TryItBtn = () =>
-    <div className={css.tryItBtn}>
+    <Link to={paths.contacts} className={css.tryItBtn}>
         <h3 className={css.tryItBtn_txt}>Try it!</h3>
-    </div>;
+    </Link>;
