@@ -7,7 +7,7 @@ type Props = {
     children:React.ReactNode;
 };
 
-export const StoreProvider = ({children}:Props) =>
+export const Redux = ({children}:Props) =>
     <Provider store={store}>
         {children}
     </Provider>;

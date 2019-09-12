@@ -1,11 +1,13 @@
 import * as React from 'react';
 
+import css from './List.css';
 import * as T from './types';
 import {Contact} from '../contact';
-import css from './List.css';
+import {DataProvider} from './DataProvider';
 
 export const List = ({contacts, toggleContactWindow}:T.Props) =>
     <div className={css.main}>
+        <DataProvider>{null}</DataProvider>
         <Items
             contacts={contacts}
             toggleContactWindow={toggleContactWindow}/>

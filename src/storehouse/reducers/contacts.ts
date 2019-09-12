@@ -70,7 +70,7 @@ const initialState:State = {
             contactId: 1,
             time: 1568273611185,
             type: CallType.OUTCOME
-        },
+        }
     },
     needShowContactWindow: false,
     needShowAddContactWindow: false,

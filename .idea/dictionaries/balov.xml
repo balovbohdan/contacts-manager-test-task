@@ -2,6 +2,7 @@
   <dictionary name="balov">
     <words>
       <w>classnames</w>
+      <w>defs</w>
       <w>dirname</w>
       <w>esnext</w>
       <w>fader</w>

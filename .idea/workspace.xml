@@ -2,31 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad102abb-e156-4de8-acd7-836e342aea10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/edit.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contacts-manager/edit-contact-window/EditContactWindow.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contacts-manager/edit-contact-window/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contacts-manager/edit-contact-window/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contacts-manager/edit-contact-window/utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contacts-manager/form/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/routes/contacts/EditContactWindow.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/dummy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/resolvers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/type-defs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/app/Apollo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/contacts-manager/list/DataProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/apollo/factory.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/balov.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/balov.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/add-contact-window/AddContactWindow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/add-contact-window/AddContactWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts-manager/add-contact-window/AddContactWindow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/add-contact-window/Form.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts-manager/form/Form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/add-contact-window/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts-manager/form/Form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/add-contact-window/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts-manager/form/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/contact-window/ContactWindow.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts-manager/contact-window/ContactWindow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/contact-window/ContactWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts-manager/contact-window/ContactWindow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/contact-window/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts-manager/contact-window/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/routes/contacts/ContactWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/routes/contacts/ContactWindow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/routes/contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/routes/contacts/Contacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/routes/contacts/redux-connect-props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/routes/contacts/redux-connect-props.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/routes/contacts/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/routes/contacts/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/entities/contacts/contact/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/entities/contacts/contact/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storehouse/Action.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/storehouse/Action.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storehouse/actions/contacts/contacts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/storehouse/actions/contacts/contacts.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storehouse/actions/contacts/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/storehouse/actions/contacts/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/StoreProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/Redux.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/list/List.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts-manager/list/List.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/storehouse/reducers/contacts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/storehouse/reducers/contacts.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -52,53 +42,53 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="babelrc" value="1" />
-          <entry key="css" value="108" />
+          <entry key="css" value="109" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="5" />
           <entry key="ico" value="1" />
-          <entry key="js" value="17" />
-          <entry key="json" value="20" />
+          <entry key="js" value="25" />
+          <entry key="json" value="29" />
           <entry key="src" value="1" />
           <entry key="svg" value="11" />
-          <entry key="ts" value="256" />
-          <entry key="tsx" value="182" />
+          <entry key="ts" value="269" />
+          <entry key="tsx" value="190" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="108" />
+          <entry key="CSS" value="109" />
           <entry key="HTML" value="5" />
           <entry key="Image" value="1" />
-          <entry key="JSON" value="12" />
-          <entry key="JavaScript" value="17" />
+          <entry key="JSON" value="21" />
+          <entry key="JavaScript" value="25" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SVG" value="11" />
-          <entry key="TypeScript" value="256" />
-          <entry key="TypeScript JSX" value="182" />
+          <entry key="TypeScript" value="269" />
+          <entry key="TypeScript JSX" value="190" />
           <entry key="tsconfig" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="babelrc" value="243" />
-          <entry key="css" value="7642" />
+          <entry key="css" value="7657" />
           <entry key="gitignore" value="24" />
           <entry key="html" value="40" />
-          <entry key="js" value="1854" />
-          <entry key="json" value="768" />
-          <entry key="ts" value="9640" />
-          <entry key="tsx" value="21969" />
+          <entry key="js" value="2450" />
+          <entry key="json" value="1021" />
+          <entry key="ts" value="10233" />
+          <entry key="tsx" value="22895" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="7642" />
+          <entry key="CSS" value="7657" />
           <entry key="HTML" value="40" />
-          <entry key="JSON" value="920" />
-          <entry key="JavaScript" value="1854" />
+          <entry key="JSON" value="1173" />
+          <entry key="JavaScript" value="2450" />
           <entry key="PLAIN_TEXT" value="24" />
-          <entry key="TypeScript" value="9640" />
-          <entry key="TypeScript JSX" value="21969" />
+          <entry key="TypeScript" value="10233" />
+          <entry key="TypeScript JSX" value="22895" />
           <entry key="tsconfig" value="91" />
         </counts>
       </usages-collector>
@@ -112,19 +102,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/contacts-manager/form/Form.tsx">
+        <entry file="file://$PROJECT_DIR$/src/components/contacts-manager/list/List.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="160">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/contacts-manager/form/Form.css">
+        <entry file="file://$PROJECT_DIR$/src/components/contacts-manager/list/DataProvider.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+            <state relative-caret-position="304">
+              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,11 +129,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>--light-blue-color</find>
-      <find>pointer</find>
-      <find>cursor:</find>
-      <find>reducers</find>
-      <find>showAddContactWindow:</find>
       <find>border-radius: 3px</find>
       <find>toggleAddContactWindow: tr</find>
       <find>showAddContactWindow: tr</find>
@@ -163,6 +154,11 @@
       <find>&quot;</find>
       <find>--color</find>
       <find>log</find>
+      <find>userImg</find>
+      <find>react-apo</find>
+      <find>graph</find>
+      <find>import gql from 'graphql-tag';</find>
+      <find>fet</find>
     </findStrings>
     <replaceStrings>
       <replace>TSConfigPathsPlugin</replace>
@@ -176,6 +172,7 @@
       <replace>color-</replace>
       <replace>needShowAddContactWindow</replace>
       <replace>'</replace>
+      <replace>'/user.svg'</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/dist</dir>
@@ -187,21 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/lib/math/index.ts" />
-        <option value="$PROJECT_DIR$/src/lib/contacts/contact/types.ts" />
-        <option value="$PROJECT_DIR$/src/components/contacts-manager/List.tsx" />
-        <option value="$PROJECT_DIR$/src/components/contacts-manager/contact/index.ts" />
-        <option value="$PROJECT_DIR$/src/components/contacts-manager/list/index.ts" />
-        <option value="$PROJECT_DIR$/src/components/contacts-manager/list/utils.ts" />
-        <option value="$PROJECT_DIR$/src/components/contacts-manager/list/types.ts" />
-        <option value="$PROJECT_DIR$/src/components/contacts-manager/list/List.tsx" />
-        <option value="$PROJECT_DIR$/src/components/contacts-manager/ContectsManager.tsx" />
-        <option value="$PROJECT_DIR$/src/components/contacts-manager/types.ts" />
-        <option value="$PROJECT_DIR$/src/components/routes/contacts/utils.ts" />
-        <option value="$PROJECT_DIR$/src/components/contacts-manager/index.ts" />
-        <option value="$PROJECT_DIR$/src/lib/entities/contacts/contact/utils.ts" />
-        <option value="$PROJECT_DIR$/src/lib/entities/contacts/index.ts" />
-        <option value="$PROJECT_DIR$/src/lib/entities/calls-history/CallType.ts" />
         <option value="$PROJECT_DIR$/src/lib/entities/calls-history/CallTypes.ts" />
         <option value="$PROJECT_DIR$/src/lib/entities/calls-history/index.ts" />
         <option value="$PROJECT_DIR$/src/components/contacts-manager/contact/Contact.tsx" />
@@ -233,11 +215,26 @@
         <option value="$PROJECT_DIR$/src/components/contacts-manager/edit-contact-window/types.ts" />
         <option value="$PROJECT_DIR$/src/components/contacts-manager/edit-contact-window/utils.ts" />
         <option value="$PROJECT_DIR$/src/components/contacts-manager/edit-contact-window/EditContactWindow.tsx" />
-        <option value="$PROJECT_DIR$/src/storehouse/reducers/contacts.ts" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/components/contacts-manager/form/types.ts" />
         <option value="$PROJECT_DIR$/src/components/contacts-manager/form/Form.tsx" />
         <option value="$PROJECT_DIR$/src/components/contacts-manager/form/Form.css" />
+        <option value="$PROJECT_DIR$/src/storehouse/reducers/contacts.ts" />
+        <option value="$PROJECT_DIR$/server/dummy.js" />
+        <option value="$PROJECT_DIR$/server/type-defs.js" />
+        <option value="$PROJECT_DIR$/server/index.js" />
+        <option value="$PROJECT_DIR$/server/package.json" />
+        <option value="$PROJECT_DIR$/server/resolvers.js" />
+        <option value="$PROJECT_DIR$/src/components/gql-query/GqlQuery.tsx" />
+        <option value="$PROJECT_DIR$/src/components/gql-query/index.ts" />
+        <option value="$PROJECT_DIR$/src/components/app/Apollo.tsx" />
+        <option value="$PROJECT_DIR$/src/components/app/Redux.tsx" />
+        <option value="$PROJECT_DIR$/src/components/app/App.tsx" />
+        <option value="$PROJECT_DIR$/src/components/contacts-manager/list/List.tsx" />
+        <option value="$PROJECT_DIR$/src/lib/apollo/factory.ts" />
+        <option value="$PROJECT_DIR$/src/config.ts" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/components/contacts-manager/list/DataProvider.tsx" />
       </list>
     </option>
   </component>
@@ -255,15 +252,17 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
+    <handled-path value="$PROJECT_DIR$/server/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/server/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="784" />
     <option name="height" value="797" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -306,11 +305,6 @@
             <path>
               <item name="test-task-for-dmytro-haponov" type="b2602c69:ProjectViewProjectNode" />
               <item name="test-task-for-dmytro-haponov" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task-for-dmytro-haponov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task-for-dmytro-haponov" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -332,50 +326,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="contacts-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task-for-dmytro-haponov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task-for-dmytro-haponov" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task-for-dmytro-haponov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task-for-dmytro-haponov" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="contacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task-for-dmytro-haponov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task-for-dmytro-haponov" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="storehouse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task-for-dmytro-haponov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task-for-dmytro-haponov" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="storehouse" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task-for-dmytro-haponov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task-for-dmytro-haponov" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="storehouse" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-              <item name="contacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task-for-dmytro-haponov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task-for-dmytro-haponov" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="storehouse" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -425,12 +376,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.start (1)">
     <configuration name="build" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (1)" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -449,9 +410,11 @@
     <list>
       <item itemvalue="npm.start" />
       <item itemvalue="npm.build" />
+      <item itemvalue="npm.start (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start (1)" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
       </list>
@@ -469,23 +432,23 @@
       <updated>1568119782453</updated>
       <workItem from="1568119783742" duration="37187000" />
       <workItem from="1568269551493" duration="10847000" />
-      <workItem from="1568280530111" duration="12922000" />
+      <workItem from="1568280530111" duration="16657000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60956000" />
+    <option name="totallyTimeSpent" value="64691000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+    <frame x="0" y="23" width="784" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15593705" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29380053" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.09745128" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.13643178" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -531,153 +494,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/contacts-manager/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/contacts-manager/ContactsManager.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/entities/contacts/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/entities/contacts/contact/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/call.svg" />
-    <entry file="file://$PROJECT_DIR$/src/components/contacts-manager/list/List.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/entities/calls-history/CallType.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/entities/calls-history/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/contacts-manager/contact/types.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/contacts-manager/contact-window/utils.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/contacts-manager/contact/Contact.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="5" column="59" lean-forward="true" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/contacts-manager/contact/Contact.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/income-call.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/entities/contacts/utils.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/entities/calls-history/types.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/entities/calls-history/utils.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/storehouse/reducers/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/contacts-manager/contact-window/CallsHistory.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/edit.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/contacts-manager/contact-window/CallsHistory.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/contacts-manager/contact-window/ContactWindow.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="63" column="38" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/contacts-manager/contact-window/types.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
@@ -812,13 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/contacts-manager/list/List.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-55">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/storehouse/actions/contacts/types.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
@@ -849,16 +658,6 @@
           <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/storehouse/reducers/contacts.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="110" column="35" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -901,17 +700,189 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/contacts-manager/form/Form.tsx">
+    <entry file="file://$PROJECT_DIR$/src/components/contacts-manager/form/Form.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        <state relative-caret-position="330">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/contacts-manager/form/Form.css">
+    <entry file="file://$PROJECT_DIR$/src/components/contacts-manager/form/Form.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        <state relative-caret-position="96">
+          <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/dummy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="68" lean-forward="true" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/type-defs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/resolvers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/storehouse/reducers/contacts.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postcss.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/whatwg-fetch/fetch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11404" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/gql-query/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app/Redux.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/gql-query/GqlQuery.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/apollo-client/ApolloClient.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/apollo-link/lib/link.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/contacts-manager/list/List.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app/Apollo.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/apollo-link-http-common/lib/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/apollo-link-http/lib/httpLink.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/apollo/factory.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="e#1#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/contacts-manager/list/DataProvider.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
