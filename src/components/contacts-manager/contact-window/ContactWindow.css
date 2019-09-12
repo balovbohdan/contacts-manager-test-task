@@ -42,3 +42,45 @@
 .tip {
     font-style: italic;
 }
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.actions_btn {
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    margin-right: 10px;
+    transition: var(--trans);
+    border-radius: var(--border-radius);
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.actions_btn:hover {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.actions_btnInnerWrapper {
+    width: calc(100% - 15px);
+    height: calc(100% - 15px);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.actions_btnInnerWrapper__edit {
+    background-image: url(~@img/edit.svg);
+}
+
+.actions_btnInnerWrapper__remove {
+    background-image: url(~@img/remove.svg);
+}

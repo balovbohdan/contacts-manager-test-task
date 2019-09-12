@@ -1,6 +1,4 @@
-.main {
-
-}
+.main {}
 
 .inputWrapper {
     margin: 20px 0 40px;
@@ -35,6 +33,14 @@
 
 .submitBtn:hover {
     background-color: rgba(0, 0, 0, .3);
+}
+
+.submitBtn__disabled {
+    cursor: not-allowed;
+}
+
+.submitBtn__disabled:hover {
+    background-color: rgba(0, 0, 0, .2);
 }
 
 @media (max-width: 600px) {

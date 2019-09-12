@@ -12,3 +12,11 @@ export type ContactRaw = {
 
     tip?:string;
 };
+
+export type ContactShreds = {
+    id?:number;
+    tip?:string;
+    img?:string;
+    name?:string;
+    phone?:string;
+};

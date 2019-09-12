@@ -6,7 +6,8 @@ export const mapStateToProps = ({contacts}:TStorehouse.State) => ({
     callsHistory: contacts.callsHistory,
 
     needShowContactWindow: contacts.needShowContactWindow,
-    needShowAddContactWindow: contacts.needShowAddContactWindow
+    needShowAddContactWindow: contacts.needShowAddContactWindow,
+    needShowEditContactWindow: contacts.needShowEditContactWindow
 });
 
 export const mapDispatchToProps = dispatch => ({
@@ -20,6 +21,16 @@ export const mapDispatchToProps = dispatch => ({
 
         dispatch(action);
     },
+    editContact(payload:TActions.EditContactPayload) {
+        const action = actions.editContact(payload);
+
+        dispatch(action);
+    },
+    removeContact(payload:TActions.RemoveContactPayload) {
+        const action = actions.removeContact(payload);
+
+        dispatch(action);
+    },
     toggleContactWindow(payload?:TActions.ToggleContactWindowPayload) {
         const action = actions.toggleContactWindow(payload);
 
@@ -27,6 +38,11 @@ export const mapDispatchToProps = dispatch => ({
     },
     toggleAddContactWindow() {
         const action = actions.toggleAddContactWindow();
+
+        dispatch(action);
+    },
+    toggleEditContactWindow(payload?:TActions.ToggleEditContactWindowPayload) {
+        const action = actions.toggleEditContactWindow(payload);
 
         dispatch(action);
     }

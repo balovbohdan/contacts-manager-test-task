@@ -12,8 +12,10 @@ import {Action} from '../Action';
 export type State = {
     contacts:Contacts;
     callsHistory:CallsHistory;
+
     needShowAddContactWindow:boolean;
     needShowContactWindow:boolean|number;
+    needShowEditContactWindow:boolean|number;
 };
 
 const initialState:State = {
@@ -71,7 +73,8 @@ const initialState:State = {
         },
     },
     needShowContactWindow: false,
-    needShowAddContactWindow: false
+    needShowAddContactWindow: false,
+    needShowEditContactWindow: false
 };
 
 const createSwitch = ({type, payload}:T.Action) =>
@@ -83,13 +86,33 @@ const createSwitch = ({type, payload}:T.Action) =>
                 draft.needShowAddContactWindow = !draft.needShowAddContactWindow;
                 break;
 
-            case Action.ADD_CONTACT:
-                draft.contacts[payload.contact.id] = payload.contact;
+            case Action.TOGGLE_EDIT_CONTACT_WINDOW:
+                draft.needShowEditContactWindow = parseInt(payload.id, 10) || false;
                 break;
 
             case Action.TOGGLE_CONTACT_WINDOW:
                 draft.needShowContactWindow = parseInt(payload.id, 10) || false;
                 break;
+
+            case Action.ADD_CONTACT:
+                draft.contacts[payload.contact.id] = payload.contact;
+                break;
+
+            case Action.REMOVE_CONTACT:
+                delete draft.contacts[payload.id];
+                break;
+
+            case Action.EDIT_CONTACT: {
+                const {id} = payload.contact;
+
+                draft.contacts[id] = Object.assign(
+                    {},
+                    draft.contacts[id],
+                    payload.contact
+                );
+
+                break;
+            }
 
             case Action.CALL: {
                 const {contactId} = payload;
