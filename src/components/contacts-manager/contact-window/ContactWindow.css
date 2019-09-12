@@ -1,0 +1,44 @@
+.main {
+
+}
+
+.body {
+
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px 10px;
+    margin: 10px 0 15px;
+
+    cursor: pointer;
+    transition: var(--trans);
+    border-radius: var(--border-radius);
+
+    color: var(--color-yellow);
+}
+
+.phone:hover {
+    background: rgba(255, 255, 255, .2);
+}
+
+.phone_txt {
+    margin-left: 10px;
+}
+
+.phone_icon {
+    width: 30px;
+    height: 30px;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(~@img/logo.svg);
+}
+
+.tip {
+    font-style: italic;
+}

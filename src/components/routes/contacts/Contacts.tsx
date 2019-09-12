@@ -1,40 +1,31 @@
 import * as React from 'react';
 import {connect} from 'react-redux';
 
-import {Contact} from '@lib/contacts/contact/types';
-import {AddContact} from '@storehouse/actions/contacts/types';
-
 import {Fader} from '@components/fader';
 import {ContactsManager} from '@components/contacts-manager';
 
-import {CallsHistory} from './CallsHistory';
+import {ContactWindow} from './ContactWindow';
 import {AddContactWindow} from './AddContactWindow';
 
+import * as T from './types';
 import {mapStateToProps, mapDispatchToProps} from './redux-connect-props';
 
-type Props = {
-    contacts:Contact[];
-    showAddContactWindow:boolean;
-
-    addContact:AddContact;
-    toggleAddContactWindow:()=>void;
-};
-
-const Contacts = (props:Props) => {
-    const {toggleAddContactWindow} = props;
-
-    return (
-        <Fader>
-            <ContactsManager
-                contacts={props.contacts}
-                toggleAddContactWindow={toggleAddContactWindow}/>
-            <AddContactWindow
-                addContact={props.addContact}
-                close={toggleAddContactWindow}
-                active={props.showAddContactWindow}/>
-            <CallsHistory active={true}/>
-        </Fader>
-    );
-};
+const Contacts = (props:T.ContactsProps) =>
+    <Fader>
+        <ContactsManager
+            contacts={props.contacts}
+            toggleContactWindow={props.toggleContactWindow}
+            toggleAddContactWindow={props.toggleAddContactWindow}/>
+        <AddContactWindow
+            addContact={props.addContact}
+            close={props.toggleAddContactWindow}
+            active={props.needShowAddContactWindow}/>
+        <ContactWindow
+            call={props.call}
+            contacts={props.contacts}
+            callsHistory={props.callsHistory}
+            close={props.toggleContactWindow}
+            active={props.needShowContactWindow}/>
+    </Fader>;
 
 export default connect(mapStateToProps, mapDispatchToProps)(Contacts);

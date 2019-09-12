@@ -8,8 +8,13 @@
     cursor: pointer;
     margin-top: 20px;
     position: relative;
+    transition: var(--trans);
     background: var(--color-blue);
     box-shadow: 0 2px 3px rgba(0, 0, 0, .2), 0 6px 6px rgba(0, 0, 0, .2);
+}
+
+.main:hover {
+    background-color: rgba(22, 50, 79, .8);
 }
 
 .avatar {
@@ -41,24 +46,6 @@
     color: var(--color-white);
 }
 
-.actionsBtn {
-    padding: 0 5px;
-    cursor: pointer;
-    position: absolute;
-
-    right: 10px;
-}
-
-.actionsBtn_item {
-    width: 5px;
-    height: 5px;
-
-    margin: 5px 0;
-    border-radius: 50%;
-
-    background-color: var(--color-white);
-}
-
 @media (max-width: 450px) {
     .main {
         height: 50px;
@@ -71,10 +58,5 @@
     .name_txt {
         font-size: 1rem;
         color: var(--color-white);
-    }
-
-    .actionsBtn_item {
-        width: 3px;
-        height: 3px;
     }
 }

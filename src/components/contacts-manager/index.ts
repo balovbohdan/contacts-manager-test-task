@@ -1,7 +1,7 @@
-import {ContactsManager} from './ContectsManager';
+import {ContactsManager} from './ContactsManager';
 
 export {ContactsManager};
 export default ContactsManager;
 
-export {CallsHistory} from './calls-history';
+export {ContactWindow} from './contact-window';
 export {AddContactWindow} from './add-contact-window';

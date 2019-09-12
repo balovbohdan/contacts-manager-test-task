@@ -1,4 +1,8 @@
 import * as React from 'react';
+import {cloneDeep} from 'lodash';
+
+import {genRndNumber} from '@lib/math';
+import {Contact} from '@lib/entities/contacts/contact/types';
 
 import {ModalWindow} from '@components/modal-window';
 import {AddContact} from '@storehouse/actions/contacts/types';
@@ -27,7 +31,15 @@ export const AddContactWindow = ({close, addContact}:Props) => {
 };
 
 const createSubmit = (close:Close, addContact:AddContact) =>
-    (contact:T.FormData) => {
+    (formData:T.FormData) => {
+        const contact = createContactFromFormData(formData);
+
         addContact({ contact });
         close();
     };
+
+const createContactFromFormData = (formData:T.FormData):Contact => {
+    const id = genRndNumber();
+
+    return Object.assign({}, formData, { id });
+};
