@@ -21,7 +21,8 @@ type Props = {
 export const getCallsHistory = async ({contactId}:Props):Promise<CallsHistory> => {
     const {data} = await client.query({
         query,
-        variables: { contactId }
+        variables: { contactId },
+        fetchPolicy: 'cache-first'
     });
 
     return createRes(data);

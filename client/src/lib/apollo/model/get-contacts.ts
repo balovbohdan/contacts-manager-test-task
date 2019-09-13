@@ -16,7 +16,10 @@ const query = gql`
 `;
 
 export const getContacts = async ():Promise<Contacts> => {
-    const {data} = await client.query({ query });
+    const {data} = await client.query({
+        query,
+        fetchPolicy: 'cache-first'
+    });
 
     return createRes(data);
 };

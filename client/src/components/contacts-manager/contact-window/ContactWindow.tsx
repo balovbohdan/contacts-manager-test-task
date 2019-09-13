@@ -18,6 +18,7 @@ export const ContactWindow = (props:T.Props) => {
                 phone={phone}
                 id={props.id}
                 call={props.call}
+                close={props.close}
                 remove={props.remove}
                 contacts={props.contacts}
                 callsHistory={props.callsHistory}
@@ -38,6 +39,7 @@ const Body = (props:T.BodyProps) => {
         <div className={css.body}>
             <Actions
                 id={id}
+                close={props.close}
                 remove={props.remove}
                 toggleEditWindow={props.toggleEditWindow}/>
             <div title='Call' className={css.phone} onClick={doCall}>
@@ -54,9 +56,13 @@ const Body = (props:T.BodyProps) => {
     );
 };
 
-const Actions = ({id, remove, toggleEditWindow}:T.ActionsProps) => {
-    const doRemove = () => remove({ id });
+const Actions = ({id, close, remove, toggleEditWindow}:T.ActionsProps) => {
     const openEditWindow = () => toggleEditWindow({ id });
+
+    const doRemove = () => {
+        close();
+        remove({ id });
+    };
 
     const editClassName = classnames(
         css.actions_btnInnerWrapper,

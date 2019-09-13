@@ -22,6 +22,7 @@ export type BodyProps = {
     contacts:Contacts;
     callsHistory:T.CallsHistory;
 
+    close:()=>void;
     call:Actions.Call;
     remove:Actions.RemoveContact;
     fetchCallsHistory:Actions.FetchCallsHistory;
@@ -33,6 +34,7 @@ export type BodyProps = {
 export type ActionsProps = {
     id:number;
 
+    close:()=>void;
     remove:Actions.RemoveContact;
     toggleEditWindow:Actions.ToggleEditContactWindow;
 };

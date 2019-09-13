@@ -71,6 +71,7 @@ const createSwitch = ({type, payload}:T.Action) =>
                 break;
 
             case Action.REMOVE_CONTACT:
+                console.log(payload.id);
                 delete draft.contacts[payload.id];
                 break;
 
