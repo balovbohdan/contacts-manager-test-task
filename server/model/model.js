@@ -44,6 +44,7 @@ function removeContact({id}) {
         return null;
 
     db.delete(`/contacts[${index}]`);
+    removeCallsHistory({ contactId: id });
 
     return contacts[index];
 }
@@ -81,6 +82,12 @@ function getCallsHistory({contactId}) {
     const data = db.getData('/callsHistory');
 
     return data.filter(item => item.contactId === contactId);
+}
+
+function removeCallsHistory({contactId}) {
+    const filter = item => item.contactId !== contactId;
+
+    db.filter('/callsHistory', filter);
 }
 
 module.exports = {

@@ -2,53 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad102abb-e156-4de8-acd7-836e342aea10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/model/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/model/initializer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/model/model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contacts-manager/contact-window/calls-history/DataProvider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contacts-manager/contact-window/calls-history/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/apollo/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/apollo/model/add-contact.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/apollo/model/call.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/apollo/model/edit-contact.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/apollo/model/get-calls-history.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/apollo/model/get-contacts.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/apollo/model/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/apollo/model/remove-contact.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/balov.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/balov.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/dummy.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/model/dummy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/resolvers.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/resolvers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/type-defs.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/type-defs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/Apollo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/Apollo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/ContactsManager.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts-manager/ContactsManager.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/add-contact-window/AddContactWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts-manager/add-contact-window/AddContactWindow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/contact-window/CallsHistory.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts-manager/contact-window/calls-history/CallsHistory.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/contact-window/CallsHistory.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts-manager/contact-window/calls-history/CallsHistory.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/contact-window/ContactWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts-manager/contact-window/ContactWindow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/contact-window/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts-manager/contact-window/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/edit-contact-window/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts-manager/edit-contact-window/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/list/DataProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts-manager/list/DataProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/list/List.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts-manager/list/List.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/list/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts-manager/list/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts-manager/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/routes/contacts/AddContactWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/routes/contacts/AddContactWindow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/routes/contacts/ContactWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/routes/contacts/ContactWindow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/routes/contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/routes/contacts/Contacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/routes/contacts/redux-connect-props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/routes/contacts/redux-connect-props.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/routes/contacts/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/routes/contacts/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/apollo/factory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/apollo/client.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/entities/contacts/contact/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/entities/contacts/contact/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/math/rnd-number-generator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/math/rnd-number-generator.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storehouse/Action.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/storehouse/Action.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storehouse/actions/contacts/contacts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/storehouse/actions/contacts/contacts.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storehouse/actions/contacts/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/storehouse/actions/contacts/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storehouse/reducers/contacts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/storehouse/reducers/contacts.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storehouse/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/storehouse/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/model/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/model/model.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -77,7 +31,7 @@
           <entry key="gitignore" value="1" />
           <entry key="html" value="5" />
           <entry key="ico" value="1" />
-          <entry key="js" value="66" />
+          <entry key="js" value="68" />
           <entry key="json" value="34" />
           <entry key="src" value="1" />
           <entry key="svg" value="11" />
@@ -91,7 +45,7 @@
           <entry key="HTML" value="5" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="26" />
-          <entry key="JavaScript" value="66" />
+          <entry key="JavaScript" value="68" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SVG" value="11" />
           <entry key="TypeScript" value="350" />
@@ -105,7 +59,7 @@
           <entry key="css" value="7657" />
           <entry key="gitignore" value="24" />
           <entry key="html" value="40" />
-          <entry key="js" value="5594" />
+          <entry key="js" value="5755" />
           <entry key="json" value="1057" />
           <entry key="ts" value="16487" />
           <entry key="tsx" value="24190" />
@@ -116,7 +70,7 @@
           <entry key="CSS" value="7657" />
           <entry key="HTML" value="40" />
           <entry key="JSON" value="1209" />
-          <entry key="JavaScript" value="5594" />
+          <entry key="JavaScript" value="5755" />
           <entry key="PLAIN_TEXT" value="24" />
           <entry key="TypeScript" value="16487" />
           <entry key="TypeScript JSX" value="24190" />
@@ -131,104 +85,20 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.38482141">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/storehouse/actions/contacts/contacts.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="108">
-                  <caret line="86" column="21" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
-                  <folding>
-                    <element signature="e#0#35#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/lib/math/rnd-number-generator.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="23">
-                  <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/lib/apollo/model/remove-contact.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="368">
-                  <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-                  <folding>
-                    <element signature="e#0#30#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/server/type-defs.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-123">
-                  <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/server/resolvers.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="299">
-                  <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/server/model/dummy.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="70">
-                  <caret line="28" selection-start-line="28" selection-end-line="28" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/lib/apollo/model/add-contact.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="184">
-                  <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-                  <folding>
-                    <element signature="e#0#30#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/lib/apollo/model/call.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="268">
-                  <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-                  <folding>
-                    <element signature="e#0#30#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/model/model.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>id ||</find>
       <find>--color-yellow</find>
       <find>actionsBtn</find>
       <find>action</find>
@@ -258,6 +128,7 @@
       <find>callhis</find>
       <find>CallsHistoryItem</find>
       <find>CallHistoryItem</find>
+      <find>removeC</find>
     </findStrings>
     <replaceStrings>
       <replace>TSConfigPathsPlugin</replace>
@@ -330,13 +201,13 @@
         <option value="$PROJECT_DIR$/src/lib/apollo/model/edit-contact.ts" />
         <option value="$PROJECT_DIR$/src/components/contacts-manager/edit-contact-window/utils.ts" />
         <option value="$PROJECT_DIR$/src/lib/apollo/model/remove-contact.ts" />
-        <option value="$PROJECT_DIR$/server/model/model.js" />
         <option value="$PROJECT_DIR$/server/resolvers.js" />
         <option value="$PROJECT_DIR$/src/lib/apollo/model/index.ts" />
         <option value="$PROJECT_DIR$/src/storehouse/reducers/contacts.ts" />
         <option value="$PROJECT_DIR$/src/storehouse/actions/contacts/contacts.ts" />
         <option value="$PROJECT_DIR$/server/type-defs.js" />
         <option value="$PROJECT_DIR$/src/lib/apollo/model/call.ts" />
+        <option value="$PROJECT_DIR$/server/model/model.js" />
       </list>
     </option>
   </component>
@@ -602,12 +473,12 @@
       <updated>1568119782453</updated>
       <workItem from="1568119783742" duration="37187000" />
       <workItem from="1568269551493" duration="10847000" />
-      <workItem from="1568280530111" duration="30638000" />
+      <workItem from="1568280530111" duration="30852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78672000" />
+    <option name="totallyTimeSpent" value="78886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -975,13 +846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/model/model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/apollo/model/index.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1076,11 +940,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/apollo/model/call.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        <state relative-caret-position="176">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/model/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
         </state>
       </provider>
     </entry>
