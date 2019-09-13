@@ -3,7 +3,7 @@ import gql from 'graphql-tag';
 import {client} from '@lib/apollo';
 import {Contacts} from '@lib/entities/contacts/contact/types';
 
-const query = gql`
+export const query = gql`
     query GetContacts {
         contacts {
             id

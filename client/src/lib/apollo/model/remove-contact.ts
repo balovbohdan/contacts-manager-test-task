@@ -2,6 +2,8 @@ import gql from 'graphql-tag';
 
 import {client} from '@lib/apollo';
 
+import {query as getContactsQuery} from './get-contacts';
+
 const mutation = gql`
     mutation RemoveContact($id:Int!) {
         removeContact(id:$id) {
@@ -17,6 +19,9 @@ type Props = {
 export const removeContact = async ({id}:Props) => {
     await client.mutate({
         mutation,
-        variables: { id }
+        variables: { id },
+        refetchQueries:[{
+            query: getContactsQuery
+        }]
     });
 };
