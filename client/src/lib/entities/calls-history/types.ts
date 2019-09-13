@@ -1,4 +1,4 @@
-import {CallType} from '@lib/entities/calls-history';
+import {CallType} from './CallType';
 
 export type CallsHistory = {[type:string]:Item};
 

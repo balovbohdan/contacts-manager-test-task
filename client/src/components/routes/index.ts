@@ -1,5 +1,5 @@
-import {Home} from '@routes/home';
-import {Contacts} from '@routes/contacts';
+import {Home} from './home';
+import {Contacts} from './contacts';
 
 export type Route = {
     component;

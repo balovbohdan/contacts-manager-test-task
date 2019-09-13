@@ -1,5 +1,4 @@
 import * as T from '@lib/entities/contacts/contact/types';
-
 import {ToggleContactWindow} from '@storehouse/actions/contacts/types';
 
 export type Props = {

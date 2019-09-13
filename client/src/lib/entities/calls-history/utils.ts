@@ -1,4 +1,4 @@
-import {T} from '@lib/entities/calls-history';
+import * as T from './types';
 
 export const filterCallsHistory = (contactId:number, callsHistory:T.CallsHistory):T.CallsHistory => {
     const res = {};

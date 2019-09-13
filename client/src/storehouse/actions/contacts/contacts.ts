@@ -90,7 +90,7 @@ export const call = (payload:T.CallPayload) =>
         };
 
         model.call({ callsHistoryItem })
-            .then(handleError);
+            .catch(handleError);
 
         dispatch({
             type: Action.CALL,

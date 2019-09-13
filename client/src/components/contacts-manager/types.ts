@@ -1,5 +1,4 @@
 import * as T from '@lib/entities/contacts/contact/types';
-
 import {T as Actions} from '@storehouse/actions/contacts';
 
 export type Props = {
