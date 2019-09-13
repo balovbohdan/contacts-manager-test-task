@@ -15,6 +15,7 @@ const Contacts = (props:T.ContactsProps) =>
     <Fader>
         <ContactsManager
             contacts={props.contacts}
+            fetchContacts={props.fetchContacts}
             toggleContactWindow={props.toggleContactWindow}
             toggleAddContactWindow={props.toggleAddContactWindow}/>
         <AddContactWindow
@@ -28,6 +29,7 @@ const Contacts = (props:T.ContactsProps) =>
             callsHistory={props.callsHistory}
             close={props.toggleContactWindow}
             active={props.needShowContactWindow}
+            fetchCallsHistory={props.fetchCallsHistory}
             toggleEditWindow={props.toggleEditContactWindow}/>
         <EditContactWindow
             edit={props.editContact}

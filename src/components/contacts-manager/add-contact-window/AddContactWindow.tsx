@@ -4,28 +4,28 @@ import {genRndNumber} from '@lib/math';
 import {Contact} from '@lib/entities/contacts/contact/types';
 
 import {ModalWindow} from '@components/modal-window';
-import {AddContact} from '@storehouse/actions/contacts/types';
+import {T as Actions} from '@storehouse/actions/contacts';
 
 import {T, Form} from '../form';
 
 type Props = {
     close:Close;
-    addContact:AddContact;
+    addContact:Actions.AddContact;
 };
 
 type Close = ()=>void;
 
-export const AddContactWindow = ({close, addContact}:Props) => {
-    const submit = createSubmit(close, addContact);
+export const AddContactWindow = (props:Props) => {
+    const submit = createSubmit(props.close, props.addContact);
 
     return (
-        <ModalWindow close={close} title='Add contact'>
+        <ModalWindow close={props.close} title='Add contact'>
             <Form submit={submit}/>
         </ModalWindow>
     );
 };
 
-const createSubmit = (close:Close, addContact:AddContact) =>
+const createSubmit = (close:Close, addContact:Actions.AddContact) =>
     (formData:T.FormData) => {
         const contact = createContactFromFormData(formData);
 

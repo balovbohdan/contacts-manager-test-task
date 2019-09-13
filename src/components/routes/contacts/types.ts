@@ -16,6 +16,8 @@ export type ContactsProps = {
     editContact:Actions.EditContact;
     toggleAddContactWindow:()=>void;
     removeContact:Actions.RemoveContact;
+    fetchContacts:Actions.FetchContacts;
+    fetchCallsHistory:Actions.FetchCallsHistory;
     toggleContactWindow:Actions.ToggleContactWindow;
     toggleEditContactWindow:Actions.ToggleEditContactWindow;
 };

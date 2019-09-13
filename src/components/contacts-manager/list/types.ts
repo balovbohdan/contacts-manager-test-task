@@ -1,19 +1,19 @@
 import * as T from '@lib/entities/contacts/contact/types';
-import {CallsHistory} from '@lib/entities/calls-history/types';
-
-import {ToggleContactWindow} from '@storehouse/actions/contacts/types';
+import {T as Actions} from '@storehouse/actions/contacts';
 
 export type Props = {
     contacts:T.Contacts;
-    toggleContactWindow:ToggleContactWindow;
+
+    fetchContacts:Actions.FetchContacts;
+    toggleContactWindow:Actions.ToggleContactWindow;
 };
 
 export type ItemsProps = {
     contacts:T.Contacts;
-    toggleContactWindow:ToggleContactWindow;
+    toggleContactWindow:Actions.ToggleContactWindow;
 };
 
 export type ItemProps = {
     contact:T.Contact;
-    toggleContactWindow:ToggleContactWindow;
+    toggleContactWindow:Actions.ToggleContactWindow;
 };

@@ -9,6 +9,7 @@ export const ContactsManager = (props:T.Props) =>
         <Head toggleAddContactWindow={props.toggleAddContactWindow}/>
         <List
             contacts={props.contacts}
+            fetchContacts={props.fetchContacts}
             toggleContactWindow={props.toggleContactWindow}/>
     </div>;
 

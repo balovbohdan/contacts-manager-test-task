@@ -1,7 +1,5 @@
 import produce from 'immer';
 
-import userImg from '@img/user.svg';
-
 import {CallType} from '@lib/entities/calls-history';
 import {Contacts} from '@lib/entities/contacts/contact/types';
 import {CallsHistory} from '@lib/entities/calls-history/types';
@@ -19,33 +17,7 @@ export type State = {
 };
 
 const initialState:State = {
-    contacts: {
-        1: {
-            id: 1,
-            name: 'Robert Martin',
-            img: userImg,
-            tip: 'He is Robert Martin',
-            phone: '+380967154028'
-        },
-        2: {
-            id: 2,
-            name: 'Bohdan Balov',
-            img: userImg,
-            phone: '+380965174916'
-        },
-        3: {
-            id: 3,
-            name: 'Steve Jobs',
-            img: userImg,
-            phone: '+380960175518'
-        },
-        4: {
-            id: 4,
-            name: 'Barack Obama',
-            img: userImg,
-            phone: '+380981972041'
-        }
-    },
+    contacts: {},
     callsHistory: {
         1: {
             id: 1,
@@ -102,29 +74,39 @@ const createSwitch = ({type, payload}:T.Action) =>
                 delete draft.contacts[payload.id];
                 break;
 
+            case Action.SET_CALLS_HISTORY:
+                draft.callsHistory = Object.assign(
+                    {},
+                    draft.callsHistory,
+                    payload.callsHistory
+                );
+                break;
+
+            case Action.SET_CONTACTS:
+                draft.contacts = Object.assign(
+                    {},
+                    draft.contacts,
+                    payload.contacts
+                );
+                break;
+
             case Action.EDIT_CONTACT: {
-                const {id} = payload.contact;
+                const {id, contact} = payload;
 
                 draft.contacts[id] = Object.assign(
                     {},
                     draft.contacts[id],
-                    payload.contact
+                    contact
                 );
 
                 break;
             }
 
             case Action.CALL: {
-                const {contactId} = payload;
-                const ids = Object.keys(draft.callsHistory);
-                const id = +ids[ids.length - 1] + 1;
+                const {callsHistoryItem} = payload;
+                const {id} = callsHistoryItem;
 
-                draft.callsHistory[id] = {
-                    id,
-                    contactId,
-                    time: Date.now(),
-                    type: CallType.OUTCOME
-                };
+                draft.callsHistory[id] = callsHistoryItem;
 
                 break;
             }

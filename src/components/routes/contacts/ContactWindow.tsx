@@ -15,6 +15,7 @@ type Props = {
     contacts:Contacts;
     active:boolean|number;
     callsHistory:T.CallsHistory;
+    fetchCallsHistory:Actions.FetchCallsHistory;
 };
 
 export const ContactWindow = (props:Props) => {
@@ -40,5 +41,6 @@ export const ContactWindow = (props:Props) => {
         remove={props.remove}
         callsHistory={history}
         contacts={props.contacts}
-        toggleEditWindow={props.toggleEditWindow}/>;
+        toggleEditWindow={props.toggleEditWindow}
+        fetchCallsHistory={props.fetchCallsHistory}/>;
 };

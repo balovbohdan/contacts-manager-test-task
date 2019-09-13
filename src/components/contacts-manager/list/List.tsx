@@ -5,13 +5,14 @@ import * as T from './types';
 import {Contact} from '../contact';
 import {DataProvider} from './DataProvider';
 
-export const List = ({contacts, toggleContactWindow}:T.Props) =>
-    <div className={css.main}>
-        <DataProvider>{null}</DataProvider>
-        <Items
-            contacts={contacts}
-            toggleContactWindow={toggleContactWindow}/>
-    </div>;
+export const List = ({contacts, fetchContacts, toggleContactWindow}:T.Props) =>
+    <DataProvider fetchContacts={fetchContacts}>
+        <div className={css.main}>
+            <Items
+                contacts={contacts}
+                toggleContactWindow={toggleContactWindow}/>
+        </div>
+    </DataProvider>;
 
 const Items = ({contacts, toggleContactWindow}:T.ItemsProps) => {
     const mapper = contact =>

@@ -6,10 +6,9 @@ import {config} from '@root/config';
 
 const {uri} = config.apolloServer;
 
-export const create = () =>
-    new ApolloClient({
-        cache: new InMemoryCache(),
-        link: createHttpLink({ uri })
-    });
+export const client = new ApolloClient({
+    cache: new InMemoryCache(),
+    link: createHttpLink({ uri })
+});
 
-export default create;
+export default client;

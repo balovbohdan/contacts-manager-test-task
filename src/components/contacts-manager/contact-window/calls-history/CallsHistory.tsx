@@ -5,12 +5,18 @@ import {CallType, T} from '@lib/entities/calls-history';
 import {findContact} from '@lib/entities/contacts/utils';
 import {Contact, Contacts} from '@lib/entities/contacts/contact/types';
 
-import * as utils from './utils';
+import {FetchCallsHistory} from '@storehouse/actions/contacts/types';
+
+import * as utils from '../utils';
 import css from './CallsHistory.css';
+import {DataProvider} from './DataProvider';
 
 type Props = {
+    contactId:number;
     contacts:Contacts;
     history:T.CallsHistory;
+
+    fetchCallsHistory:FetchCallsHistory;
 };
 
 type ItemsProps = {
@@ -28,12 +34,16 @@ export type CallTypeIconProps = {
     type:CallType;
 };
 
-export const CallsHistory = ({history, contacts}:Props) =>
-    <div className={css.main}>
-        <div className={css.scrollWrapper}>
-            <Items history={history} contacts={contacts}/>
+export const CallsHistory = (props:Props) =>
+    <DataProvider
+        contactId={props.contactId}
+        fetchCallsHistory={props.fetchCallsHistory}>
+        <div className={css.main}>
+            <div className={css.scrollWrapper}>
+                <Items history={props.history} contacts={props.contacts}/>
+            </div>
         </div>
-    </div>;
+    </DataProvider>;
 
 const Items = ({history, contacts}:ItemsProps) => {
     const mapper = ({id, time, type, contactId}) => {

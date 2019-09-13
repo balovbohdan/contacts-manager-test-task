@@ -11,6 +11,7 @@ export type Props = {
     call:Actions.Call;
     close:()=>void;
     remove:Actions.RemoveContact;
+    fetchCallsHistory:Actions.FetchCallsHistory;
     toggleEditWindow:Actions.ToggleEditContactWindow;
 };
 
@@ -23,6 +24,7 @@ export type BodyProps = {
 
     call:Actions.Call;
     remove:Actions.RemoveContact;
+    fetchCallsHistory:Actions.FetchCallsHistory;
     toggleEditWindow:Actions.ToggleEditContactWindow;
 
     tip?:string;

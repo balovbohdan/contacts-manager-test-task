@@ -21,6 +21,16 @@ export const mapDispatchToProps = dispatch => ({
 
         dispatch(action);
     },
+    fetchContacts() {
+        const action = actions.fetchContacts();
+
+        dispatch(action);
+    },
+    fetchCallsHistory(payload:TActions.FetchCallsHistoryPayload) {
+        const action = actions.fetchCallsHistory(payload);
+
+        dispatch(action);
+    },
     editContact(payload:TActions.EditContactPayload) {
         const action = actions.editContact(payload);
 

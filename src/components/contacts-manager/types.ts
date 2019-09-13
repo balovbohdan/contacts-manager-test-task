@@ -1,11 +1,13 @@
 import * as T from '@lib/entities/contacts/contact/types';
-import {ToggleContactWindow} from '@storehouse/actions/contacts/types';
+
+import {T as Actions} from '@storehouse/actions/contacts';
 
 export type Props = {
     contacts:T.Contacts;
 
+    fetchContacts:Actions.FetchContacts;
     toggleAddContactWindow:()=>void;
-    toggleContactWindow:ToggleContactWindow;
+    toggleContactWindow:Actions.ToggleContactWindow;
 };
 
 export type HeadProps = {

@@ -3,11 +3,19 @@ const {gql} = require('apollo-server');
 module.exports = gql`
     type Query {
         contacts:[Contact]
-        callsHistory:[CallsHistoryItem]
+        callsHistory(contactId:Int!):[CallsHistoryItem]
+    }
+    
+    type Mutation {
+        removeContact(id:Int!):Contact
+        addContact(contact:AddContactInput!):Contact
+        call(callsHistoryItem:CallInput!):CallsHistoryItem
+        editContact(id:Int!, contact:EditContactInput!):Contact
     }
   
     type Contact {
         id:Int
+        tip:String
         img:String
         name:String
         phone:String
@@ -18,5 +26,27 @@ module.exports = gql`
         type:Int
         time:String
         contactId:Int
+    }
+    
+    input EditContactInput {
+        tip:String
+        img:String
+        name:String
+        phone:String
+    }
+    
+    input AddContactInput {
+        id:Int!
+        tip:String
+        img:String!
+        name:String!
+        phone:String!
+    }
+    
+    input CallInput {
+        id:Int!
+        type:Int!
+        time:String!
+        contactId:Int!
     }
 `;

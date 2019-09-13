@@ -20,3 +20,10 @@ export type ContactShreds = {
     name?:string;
     phone?:string;
 };
+
+export type ContactUpdatableShreds = {
+    tip?:string;
+    img?:string;
+    name?:string;
+    phone?:string;
+};

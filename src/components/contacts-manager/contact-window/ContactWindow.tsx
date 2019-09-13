@@ -5,7 +5,7 @@ import {ModalWindow} from '@components/modal-window';
 
 import * as T from './types';
 import css from './ContactWindow.css';
-import {CallsHistory} from './CallsHistory';
+import {CallsHistory} from './calls-history';
 
 export const ContactWindow = (props:T.Props) => {
     const {name, img, phone, tip} = props.contacts[props.id];
@@ -21,7 +21,8 @@ export const ContactWindow = (props:T.Props) => {
                 remove={props.remove}
                 contacts={props.contacts}
                 callsHistory={props.callsHistory}
-                toggleEditWindow={props.toggleEditWindow}/>
+                toggleEditWindow={props.toggleEditWindow}
+                fetchCallsHistory={props.fetchCallsHistory}/>
         </ModalWindow>
     );
 };
@@ -45,8 +46,10 @@ const Body = (props:T.BodyProps) => {
             </div>
             {tip && <p className={css.tip}>{tip}</p>}
             <CallsHistory
+                contactId={id}
                 contacts={props.contacts}
-                history={props.callsHistory}/>
+                history={props.callsHistory}
+                fetchCallsHistory={props.fetchCallsHistory}/>
         </div>
     );
 };
