@@ -2,161 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad102abb-e156-4de8-acd7-836e342aea10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/install-modules.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/start-client.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/start-server.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/client/.babelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/start.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/PermanentMarker-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/fonts/PermanentMarker-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto-latin-100.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/fonts/roboto-latin-100.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto-latin-100.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/fonts/roboto-latin-100.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto-latin-100italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/fonts/roboto-latin-100italic.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto-latin-100italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/fonts/roboto-latin-100italic.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto-latin-300.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/fonts/roboto-latin-300.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto-latin-300.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/fonts/roboto-latin-300.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto-latin-300italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/fonts/roboto-latin-300italic.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto-latin-300italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/fonts/roboto-latin-300italic.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto-latin-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/fonts/roboto-latin-400.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto-latin-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/fonts/roboto-latin-400.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto-latin-400italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/fonts/roboto-latin-400italic.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto-latin-400italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/fonts/roboto-latin-400italic.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto-latin-500.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/fonts/roboto-latin-500.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto-latin-500.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/fonts/roboto-latin-500.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto-latin-500italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/fonts/roboto-latin-500italic.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto-latin-500italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/fonts/roboto-latin-500italic.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto-latin-700.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/fonts/roboto-latin-700.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto-latin-700.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/fonts/roboto-latin-700.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto-latin-700italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/fonts/roboto-latin-700italic.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto-latin-700italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/fonts/roboto-latin-700italic.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto-latin-900.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/fonts/roboto-latin-900.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto-latin-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/fonts/roboto-latin-900.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto-latin-900italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/fonts/roboto-latin-900italic.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto-latin-900italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/fonts/roboto-latin-900italic.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/close.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/img/close.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/cover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/img/cover.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/edit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/img/edit.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/img/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/income-call.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/img/income-call.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/loader.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/img/loader.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/img/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/outcome-call.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/img/outcome-call.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/remove.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/img/remove.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/user.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/img/user.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/global.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/DB.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/Apollo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/app/Apollo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/Redux.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/app/Redux.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/Router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/app/Router.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/app/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/ContactsManager.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/ContactsManager.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/ContactsManager.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/ContactsManager.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/add-contact-window/AddContactWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/add-contact-window/AddContactWindow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/add-contact-window/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/add-contact-window/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/contact-window/ContactWindow.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/contact-window/ContactWindow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/contact-window/ContactWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/contact-window/ContactWindow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/contact-window/calls-history/CallsHistory.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/contact-window/calls-history/CallsHistory.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/contact-window/calls-history/CallsHistory.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/contact-window/calls-history/CallsHistory.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/contact-window/calls-history/DataProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/contact-window/calls-history/DataProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/contact-window/calls-history/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/contact-window/calls-history/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/contact-window/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/contact-window/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/contact-window/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/contact-window/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/contact-window/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/contact-window/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/contact/Contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/contact/Contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/contact/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/contact/Contact.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/contact/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/contact/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/contact/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/contact/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/edit-contact-window/EditContactWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/edit-contact-window/EditContactWindow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/edit-contact-window/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/edit-contact-window/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/edit-contact-window/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/edit-contact-window/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/edit-contact-window/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/edit-contact-window/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/form/Form.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/form/Form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/form/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/form/Form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/form/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/form/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/form/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/form/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/list/DataProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/list/DataProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/list/List.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/list/List.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/list/List.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/list/List.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/list/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/list/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/list/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/list/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts-manager/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cover/Cover.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/cover/Cover.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cover/Cover.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/cover/Cover.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cover/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/cover/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fader/Fader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/fader/Fader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fader/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/fader/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/header/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/LeftBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/header/LeftBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/LeftBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/header/LeftBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/RightBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/header/RightBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/RightBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/header/RightBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/header/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modal-window/ModalWindow.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/modal-window/ModalWindow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modal-window/ModalWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/modal-window/ModalWindow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modal-window/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/modal-window/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/page-preloader/PagePreloader.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/page-preloader/PagePreloader.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/page-preloader/PagePreloader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/page-preloader/PagePreloader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/page-preloader/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/page-preloader/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/routes/contacts/AddContactWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/routes/contacts/AddContactWindow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/routes/contacts/ContactWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/routes/contacts/ContactWindow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/routes/contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/routes/contacts/Contacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/routes/contacts/ContactsLazy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/routes/contacts/ContactsLazy.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/routes/contacts/EditContactWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/routes/contacts/EditContactWindow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/routes/contacts/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/routes/contacts/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/routes/contacts/redux-connect-props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/routes/contacts/redux-connect-props.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/routes/contacts/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/routes/contacts/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/routes/home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/routes/home/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/routes/home/HomeLazy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/routes/home/HomeLazy.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/routes/home/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/routes/home/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/routes/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/constants.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/css/constants.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/css/fonts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/css/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/roboto-fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/css/roboto-fonts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/titles.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/css/titles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/apollo/client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/lib/apollo/client.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/apollo/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/lib/apollo/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/apollo/model/add-contact.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/lib/apollo/model/add-contact.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/apollo/model/call.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/lib/apollo/model/call.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/apollo/model/edit-contact.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/lib/apollo/model/edit-contact.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/apollo/model/get-calls-history.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/lib/apollo/model/get-calls-history.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/apollo/model/get-contacts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/lib/apollo/model/get-contacts.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/apollo/model/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/lib/apollo/model/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/apollo/model/remove-contact.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/lib/apollo/model/remove-contact.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/entities/calls-history/CallType.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/lib/entities/calls-history/CallType.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/entities/calls-history/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/lib/entities/calls-history/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/entities/calls-history/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/lib/entities/calls-history/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/entities/calls-history/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/lib/entities/calls-history/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/entities/contacts/contact/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/lib/entities/contacts/contact/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/entities/contacts/contact/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/lib/entities/contacts/contact/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/entities/contacts/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/lib/entities/contacts/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/entities/contacts/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/lib/entities/contacts/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/math/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/lib/math/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/math/rnd-number-generator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/lib/math/rnd-number-generator.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storehouse/Action.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/storehouse/Action.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storehouse/actions/contacts/contacts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/storehouse/actions/contacts/contacts.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storehouse/actions/contacts/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/storehouse/actions/contacts/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storehouse/actions/contacts/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/storehouse/actions/contacts/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storehouse/actions/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/storehouse/actions/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storehouse/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/storehouse/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storehouse/reducers/contacts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/storehouse/reducers/contacts.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storehouse/reducers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/storehouse/reducers/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storehouse/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/storehouse/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storehouse/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/storehouse/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/install-modules.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/install-modules.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/start-client.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/start-client.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/start-server.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/start-server.sh" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -188,7 +38,7 @@
           <entry key="ico" value="1" />
           <entry key="js" value="68" />
           <entry key="json" value="39" />
-          <entry key="sh" value="3" />
+          <entry key="sh" value="7" />
           <entry key="src" value="1" />
           <entry key="svg" value="11" />
           <entry key="ts" value="397" />
@@ -197,7 +47,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Bash" value="3" />
+          <entry key="Bash" value="7" />
           <entry key="CSS" value="119" />
           <entry key="HTML" value="5" />
           <entry key="Image" value="1" />
@@ -218,20 +68,20 @@
           <entry key="html" value="40" />
           <entry key="js" value="5755" />
           <entry key="json" value="1057" />
-          <entry key="sh" value="125" />
-          <entry key="ts" value="16525" />
+          <entry key="sh" value="262" />
+          <entry key="ts" value="16530" />
           <entry key="tsx" value="24198" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Bash" value="125" />
+          <entry key="Bash" value="262" />
           <entry key="CSS" value="7659" />
           <entry key="HTML" value="40" />
           <entry key="JSON" value="1209" />
           <entry key="JavaScript" value="5755" />
           <entry key="PLAIN_TEXT" value="70" />
-          <entry key="TypeScript" value="16525" />
+          <entry key="TypeScript" value="16530" />
           <entry key="TypeScript JSX" value="24198" />
           <entry key="tsconfig" value="91" />
         </counts>
@@ -246,90 +96,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/src/index.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/storehouse/store.ts">
+        <entry file="file://$PROJECT_DIR$/scripts/start.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
-              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/storehouse/index.ts">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/storehouse/Action.ts">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/storehouse/reducers/contacts.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/storehouse/actions/index.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" selection-start-column="34" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/storehouse/actions/contacts/contacts.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/storehouse/actions/contacts/index.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/storehouse/actions/contacts/types.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="59" selection-start-column="59" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/storehouse/reducers/index.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -338,8 +108,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>callT</find>
-      <find>fromContact</find>
       <find>CallType</find>
       <find>needShowContactWindow:boolean</find>
       <find>cloneDeep</find>
@@ -368,6 +136,8 @@
       <find>../../../../lib</find>
       <find>../</find>
       <find>~@</find>
+      <find>console.</find>
+      <find>call</find>
     </findStrings>
     <replaceStrings>
       <replace>TSConfigPathsPlugin</replace>
@@ -399,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/scripts/start-server.sh" />
         <option value="$PROJECT_DIR$/scripts/start-client.sh" />
         <option value="$PROJECT_DIR$/scripts/install-modules.sh" />
@@ -447,9 +216,10 @@
         <option value="$PROJECT_DIR$/client/src/storehouse/store.ts" />
         <option value="$PROJECT_DIR$/client/src/storehouse/reducers/contacts.ts" />
         <option value="$PROJECT_DIR$/client/src/storehouse/actions/index.ts" />
-        <option value="$PROJECT_DIR$/client/src/storehouse/actions/contacts/contacts.ts" />
         <option value="$PROJECT_DIR$/client/src/storehouse/actions/contacts/types.ts" />
         <option value="$PROJECT_DIR$/client/src/index.tsx" />
+        <option value="$PROJECT_DIR$/client/src/storehouse/actions/contacts/contacts.ts" />
+        <option value="$PROJECT_DIR$/scripts/start.sh" />
       </list>
     </option>
   </component>
@@ -464,10 +234,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/client/node_modules" />
-    <handled-path value="$PROJECT_DIR$/server/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -522,12 +288,7 @@
             <path>
               <item name="test-task-for-dmytro-haponov" type="b2602c69:ProjectViewProjectNode" />
               <item name="test-task-for-dmytro-haponov" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task-for-dmytro-haponov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task-for-dmytro-haponov" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -576,7 +337,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.start (2)">
+  <component name="RunManager" selected="Bash.start.sh">
     <configuration name="start-client.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
       <module name="test-task-for-dmytro-haponov" />
       <option name="INTERPRETER_OPTIONS" value="bash" />
@@ -597,14 +358,14 @@
       <option name="PARAMETERS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="build" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
+    <configuration name="start.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="test-task-for-dmytro-haponov" />
+      <option name="INTERPRETER_OPTIONS" value="bash" />
+      <option name="INTERPRETER_PATH" value="/usr/bin/env" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/start.sh" />
+      <option name="PARAMETERS" value="" />
       <method v="2" />
     </configuration>
     <configuration name="start (1)" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
@@ -628,19 +389,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="npm.build" />
       <item itemvalue="npm.start (1)" />
       <item itemvalue="Bash.start-server.sh" />
       <item itemvalue="Bash.start-client.sh" />
       <item itemvalue="npm.start (2)" />
+      <item itemvalue="Bash.start.sh" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Bash.start.sh" />
         <item itemvalue="npm.start (2)" />
         <item itemvalue="Bash.start-client.sh" />
         <item itemvalue="Bash.start-server.sh" />
         <item itemvalue="npm.start (1)" />
-        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -657,22 +418,23 @@
       <workItem from="1568119783742" duration="37187000" />
       <workItem from="1568269551493" duration="10847000" />
       <workItem from="1568280530111" duration="31499000" />
-      <workItem from="1568370309190" duration="1238000" />
+      <workItem from="1568370309190" duration="2056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80771000" />
+    <option name="totallyTimeSpent" value="81589000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.50214595" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30329043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45580807" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5202399" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -718,16 +480,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/src/components/contacts-manager/contact-window/calls-history/CallsHistory.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/contacts-manager/contact-window/calls-history/CallsHistory.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/contacts-manager/contact-window/calls-history/DataProvider.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -1007,13 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/storehouse/actions/contacts/contacts.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/storehouse/actions/contacts/index.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1033,10 +778,34 @@
     <entry file="file://$PROJECT_DIR$/client/src/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/storehouse/actions/contacts/contacts.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1932">
+          <caret line="84" column="34" selection-start-line="84" selection-start-column="34" selection-end-line="84" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/install-modules.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/start.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
