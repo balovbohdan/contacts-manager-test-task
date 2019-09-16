@@ -2,23 +2,28 @@ import * as React from 'react';
 
 import css from './RightBar.css';
 
-export const RightBar = () =>
+type Props = {
+    toggleRegWindow:()=>void;
+    toggleLoginWindow:()=>void;
+};
+
+export const RightBar = (props:Props) =>
     <div className={css.main}>
         <AboutBtn/>
-        <RegisterBtn/>
-        <LoginBtn/>
+        <RegBtn onClick={props.toggleRegWindow}/>
+        <LoginBtn onClick={props.toggleLoginWindow}/>
     </div>;
 
-const Btn = ({children}) =>
-    <div className={css.btn}>
+const Btn = ({onClick, children}) =>
+    <div className={css.btn} onClick={onClick}>
         {children}
     </div>;
 
-const LoginBtn = () =>
-    <Btn>Login</Btn>;
+const LoginBtn = ({onClick}) =>
+    <Btn onClick={onClick}>Login</Btn>;
 
-const RegisterBtn = () =>
-    <Btn>Register</Btn>;
+const RegBtn = ({onClick}) =>
+    <Btn onClick={onClick}>Register</Btn>;
 
 const AboutBtn = () =>
-    <Btn>About</Btn>;
+    <Btn onClick={()=>{}}>About</Btn>;

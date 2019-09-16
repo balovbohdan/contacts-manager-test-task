@@ -1,16 +1,12 @@
 import * as React from 'react';
 
-import {Header} from '@components/header';
-
 import {Redux} from './Redux';
 import {Apollo} from './Apollo';
-import {Router} from './Router';
+import {Content} from './content';
 
 export const App = () =>
     <Apollo>
         <Redux>
-            <Router>
-                <Header/>
-            </Router>
+            <Content/>
         </Redux>
     </Apollo>;

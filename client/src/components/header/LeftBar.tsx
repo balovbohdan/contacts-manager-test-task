@@ -11,6 +11,6 @@ export const LeftBar = () =>
     </div>;
 
 const Logo = () =>
-    <Link to={paths.home}>
-        <div className={css.logo}/>
+    <Link to={paths.home} className={css.logo}>
+        <div className={css.logo_img}/>
     </Link>;

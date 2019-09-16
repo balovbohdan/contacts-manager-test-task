@@ -49,9 +49,16 @@ const createSwitch = ({type, payload}:T.Action) =>
                 draft.contacts = [payload.contact].concat(draft.contacts);
                 break;
 
-            case Action.REMOVE_CONTACT:
-                delete draft.contacts[payload.id];
+            case Action.REMOVE_CONTACT: {
+                for (let i = 0; i < draft.contacts.length; i++) {
+                    if (draft.contacts[i].id === payload.id) {
+                        draft.contacts.splice(i, 1);
+                        break;
+                    }
+                }
+
                 break;
+            }
 
             case Action.SET_CALLS_HISTORY:
                 draft.callsHistory = Object.assign(

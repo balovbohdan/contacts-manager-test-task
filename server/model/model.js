@@ -39,7 +39,7 @@ function editContact({id, contact}) {
 }
 
 function removeContact({id}) {
-    const contacts = getAllContacts();
+    const contacts = getAllContacts(false);
     const index = getContactIndex(id, contacts);
 
     if (!~index)
@@ -130,10 +130,12 @@ function getContactIndex(id, contacts = null) {
     return index;
 }
 
-function getAllContacts() {
+function getAllContacts(reverse = true) {
     const contacts = cloneDeep(db.getData('/contacts'));
 
-    return contacts.reverse();
+    return reverse
+        ? contacts.reverse()
+        : contacts;
 }
 
 module.exports = {

@@ -7,6 +7,11 @@
     height:40px;
 
     cursor: pointer;
+}
+
+.logo_img {
+    width: 100%;
+    height: 100%;
 
     background-size: contain;
     background-repeat: no-repeat;
