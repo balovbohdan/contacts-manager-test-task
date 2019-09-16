@@ -1,5 +1,6 @@
 import * as React from 'react';
 
+import {findContact} from '@lib/entities/contacts';
 import {T, utils} from '@lib/entities/calls-history';
 import {Contacts} from '@lib/entities/contacts/contact/types';
 
@@ -24,9 +25,9 @@ export const ContactWindow = (props:Props) => {
     if (typeof active !== 'number')
         return null;
 
-    const contact = props.contacts[active];
+    const contact = findContact(active, props.contacts);
 
-    if (typeof contact !== 'object')
+    if (!contact)
         return null;
 
     const history = utils.filterCallsHistory(

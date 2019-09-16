@@ -1,6 +1,7 @@
 import * as React from 'react';
 import classnames from 'classnames';
 
+import {findContact} from '@lib/entities/contacts';
 import {ModalWindow} from '@components/modal-window';
 
 import * as T from './types';
@@ -8,7 +9,12 @@ import css from './ContactWindow.css';
 import {CallsHistory} from './calls-history';
 
 export const ContactWindow = (props:T.Props) => {
-    const {name, img, phone, tip} = props.contacts[props.id];
+    const contact = findContact(props.id, props.contacts);
+
+    if (!contact)
+        return null;
+
+    const {name, img, phone, tip} = contact;
 
     return (
         <ModalWindow close={props.close} title={name}>
