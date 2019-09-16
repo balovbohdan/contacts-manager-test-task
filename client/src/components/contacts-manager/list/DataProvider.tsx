@@ -1,10 +1,9 @@
 import * as React from 'react';
-
-import {FetchContacts} from '@storehouse/actions/contacts/types';
+import {isEmpty} from 'lodash';
 
 type Props = {
     children;
-    fetchContacts:FetchContacts;
+    fetchContacts:()=>void;
 };
 
 export const DataProvider = ({children, fetchContacts}:Props) => {

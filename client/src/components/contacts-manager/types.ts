@@ -3,6 +3,7 @@ import {T as Actions} from '@storehouse/actions/contacts';
 
 export type Props = {
     contacts:T.Contacts;
+    hasMoreContacts:boolean;
 
     fetchContacts:Actions.FetchContacts;
     toggleAddContactWindow:()=>void;

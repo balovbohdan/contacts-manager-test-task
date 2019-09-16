@@ -7,6 +7,8 @@ export type ContactsProps = {
     contacts:Contacts;
     callsHistory:CallsHistory;
 
+    hasMoreContacts:boolean;
+
     needShowAddContactWindow:boolean;
     needShowContactWindow:boolean|number;
     needShowEditContactWindow:boolean|number;

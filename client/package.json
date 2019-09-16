@@ -47,22 +47,23 @@
     "redux-devtools-extension": "^2.13.8"
   },
   "dependencies": {
-    "immer": "^3.2.1",
-    "lodash": "^4.17.15",
-    "classnames": "^2.2.6",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-router-dom": "^5.0.1",
+    "@apollo/react-hooks": "^3.1.0",
     "@babel/polyfill": "^7.6.0",
-    "react-reveal": "^1.2.2",
-    "redux-thunk": "^2.3.0",
-    "redux": "^4.0.4",
-    "react-redux": "^7.1.1",
-    "graphql": "^14.5.4",
-    "graphql-tag": "^2.10.1",
     "apollo-cache-inmemory": "^1.6.3",
     "apollo-client": "^2.6.4",
     "apollo-link-http": "^1.5.16",
-    "@apollo/react-hooks": "^3.1.0"
+    "classnames": "^2.2.6",
+    "graphql": "^14.5.4",
+    "graphql-tag": "^2.10.1",
+    "immer": "^3.2.1",
+    "lodash": "^4.17.15",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-infinite-scroll-component": "^4.5.3",
+    "react-redux": "^7.1.1",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
   }
 }

@@ -1,6 +1,5 @@
 import produce from 'immer';
 
-import {CallType} from '@lib/entities/calls-history';
 import {Contacts} from '@lib/entities/contacts/contact/types';
 import {CallsHistory} from '@lib/entities/calls-history/types';
 
@@ -11,6 +10,8 @@ export type State = {
     contacts:Contacts;
     callsHistory:CallsHistory;
 
+    hasMoreContacts:boolean;
+
     needShowAddContactWindow:boolean;
     needShowContactWindow:boolean|number;
     needShowEditContactWindow:boolean|number;
@@ -18,32 +19,10 @@ export type State = {
 
 const initialState:State = {
     contacts: {},
-    callsHistory: {
-        1: {
-            id: 1,
-            contactId: 2,
-            time: 1568273613185,
-            type: CallType.INCOME
-        },
-        2: {
-            id: 2,
-            contactId: 3,
-            time: 1568273611185,
-            type: CallType.INCOME
-        },
-        3: {
-            id: 3,
-            contactId: 4,
-            time: 1568273611185,
-            type: CallType.OUTCOME
-        },
-        4: {
-            id: 4,
-            contactId: 1,
-            time: 1568273611185,
-            type: CallType.OUTCOME
-        }
-    },
+    callsHistory: {},
+
+    hasMoreContacts: true,
+
     needShowContactWindow: false,
     needShowAddContactWindow: false,
     needShowEditContactWindow: false
@@ -82,13 +61,14 @@ const createSwitch = ({type, payload}:T.Action) =>
                 );
                 break;
 
-            case Action.SET_CONTACTS:
-                draft.contacts = Object.assign(
-                    {},
-                    draft.contacts,
-                    payload.contacts
-                );
+            case Action.SET_CONTACTS: {
+                const {contacts, hasMoreContacts} = payload;
+
+                draft.hasMoreContacts = hasMoreContacts;
+                draft.contacts = Object.assign({}, draft.contacts, contacts);
+
                 break;
+            }
 
             case Action.EDIT_CONTACT: {
                 const {id, contact} = payload;

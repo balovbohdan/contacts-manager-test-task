@@ -1,12 +1,11 @@
 import * as React from 'react';
 
-import {genRndNumber} from '@lib/math';
-import {Contact} from '@lib/entities/contacts/contact/types';
-
 import {ModalWindow} from '@components/modal-window';
 import {T as Actions} from '@storehouse/actions/contacts';
+import {Contact} from '@lib/entities/contacts/contact/types';
 
 import {T, Form} from '../form';
+import {genRndNumber} from '@lib/math';
 
 type Props = {
     close:Close;

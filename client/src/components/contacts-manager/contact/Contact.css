@@ -6,11 +6,14 @@
     align-items: center;
 
     cursor: pointer;
-    margin-top: 20px;
     position: relative;
     transition: var(--trans);
     background: var(--color-blue);
     box-shadow: 0 2px 3px rgba(0, 0, 0, .2), 0 6px 6px rgba(0, 0, 0, .2);
+}
+
+.main:not(:last-of-type) {
+    margin-bottom: 20px;
 }
 
 .main:hover {

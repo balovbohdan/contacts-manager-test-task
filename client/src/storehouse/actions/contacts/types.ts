@@ -44,12 +44,17 @@ export type EditContactPayload = {
 };
 
 
-export type FetchContacts = ()=>void;
+export type FetchContacts = (payload:FetchContactsPayload)=>void;
+
+export type FetchContactsPayload = {
+    lastId:number|null;
+};
 
 
 export type SetContacts = (payload:SetContactsPayload)=>void;
 
 export type SetContactsPayload = {
+    hasMoreContacts:boolean;
     contacts:Contacts.Contacts;
 };
 

@@ -1,7 +1,7 @@
 module.exports = {
     Query: {
-        contacts: (_, __, {model}) =>
-            model.getContacts(),
+        contacts: (_, args, {model}) =>
+            model.getContacts(args),
 
         callsHistory: (_, {contactId}, {model}) =>
             model.getCallsHistory({ contactId })

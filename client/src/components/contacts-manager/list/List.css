@@ -1,3 +1,19 @@
 .main {
 
 }
+
+.loader {
+    width: 100%;
+}
+
+.loader_img {
+    width: 40px;
+    height: 40px;
+
+    margin: 0 auto;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(~@img/loader.svg);
+}

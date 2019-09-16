@@ -23,6 +23,130 @@ exports.contacts = [
         name: 'Barack Obama',
         img: '/user.svg',
         phone: '+380981972041'
+    },
+    {
+        id: 5,
+        name: 'Donald Trump',
+        img: '/user.svg',
+        phone: '+380976351054'
+    },
+    {
+        id: 6,
+        name: 'Dale Carnegie',
+        img: '/user.svg',
+        phone: '+380981972041'
+    },
+    {
+        id: 7,
+        name: 'Eric Elliot',
+        img: '/user.svg',
+        phone: '+380981972041'
+    },
+    {
+        id: 8,
+        name: 'ERNEST HEMINGWAY',
+        img: '/user.svg',
+        phone: '+380981972041'
+    },
+    {
+        id: 9,
+        name: 'JOAN DIDION',
+        img: '/user.svg',
+        phone: '+380981972041'
+    },{
+        id: 10,
+        name: 'RAY BRADBURY',
+        img: '/user.svg',
+        phone: '+380981972041'
+    },{
+        id: 11,
+        name: 'GEORGE R.R. MARTIN',
+        img: '/user.svg',
+        phone: '+380981972041'
+    },
+    {
+        id: 12,
+        name: 'AYN RAND',
+        img: '/user.svg',
+        phone: '+380981972041'
+    },
+    {
+        id: 13,
+        name: 'GILLIAN FLYNN',
+        img: '/user.svg',
+        phone: '+380981972041'
+    },
+    {
+        id: 14,
+        name: 'VLADIMIR NABOKOV',
+        img: '/user.svg',
+        phone: '+380981972041'
+    },
+    {
+        id: 15,
+        name: 'JANE AUSTEN',
+        img: '/user.svg',
+        phone: '+380981972041'
+    },
+    {
+        id: 16,
+        name: 'MARK TWAIN',
+        img: '/user.svg',
+        phone: '+380981972041'
+    },
+    {
+        id: 17,
+        name: 'MEG WOLITZER',
+        img: '/user.svg',
+        phone: '+380981972041'
+    },
+    {
+        id: 18,
+        name: 'ERIK LARSON',
+        img: '/user.svg',
+        phone: '+380981972041'
+    },
+    {
+        id: 19,
+        name: 'F. SCOTT FITZGERALD',
+        img: '/user.svg',
+        phone: '+380981972041'
+    },
+    {
+        id: 20,
+        name: 'EDWIDGE DANTICAT',
+        img: '/user.svg',
+        phone: '+380981972041'
+    },
+    {
+        id: 21,
+        name: 'SAMUEL BECKETT',
+        img: '/user.svg',
+        phone: '+380981972041'
+    },
+    {
+        id: 22,
+        name: 'R.L. STINE',
+        img: '/user.svg',
+        phone: '+380981972041'
+    },
+    {
+        id: 23,
+        name: 'AMY TAN',
+        img: '/user.svg',
+        phone: '+380981972041'
+    },
+    {
+        id: 24,
+        name: 'J.K. ROWLING',
+        img: '/user.svg',
+        phone: '+380981972041'
+    },
+    {
+        id: 25,
+        name: 'MAYA ANGELOU',
+        img: '/user.svg',
+        phone: '+380981972041'
     }
 ];
 

@@ -5,6 +5,8 @@ export const mapStateToProps = ({contacts}:TStorehouse.State) => ({
     contacts: contacts.contacts,
     callsHistory: contacts.callsHistory,
 
+    hasMoreContacts: contacts.hasMoreContacts,
+
     needShowContactWindow: contacts.needShowContactWindow,
     needShowAddContactWindow: contacts.needShowAddContactWindow,
     needShowEditContactWindow: contacts.needShowEditContactWindow
@@ -21,8 +23,8 @@ export const mapDispatchToProps = dispatch => ({
 
         dispatch(action);
     },
-    fetchContacts() {
-        const action = actions.fetchContacts();
+    fetchContacts({lastId}:TActions.FetchContactsPayload) {
+        const action = actions.fetchContacts({ lastId });
 
         dispatch(action);
     },

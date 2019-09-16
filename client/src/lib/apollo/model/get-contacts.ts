@@ -3,32 +3,49 @@ import gql from 'graphql-tag';
 import {client} from '@lib/apollo';
 import {Contacts} from '@lib/entities/contacts/contact/types';
 
+type Props = {
+    limit?:number;
+    lastId?:number|null;
+};
+
+type Res = {
+    contacts:Contacts;
+    hasMoreContacts:boolean;
+};
+
 export const query = gql`
-    query GetContacts {
-        contacts {
-            id
-            tip
-            img
-            name
-            phone
+    query GetContacts($lastId:Int, $limit:Int) {
+        contacts(lastId:$lastId, limit:$limit) {
+            hasMore
+            data {
+                id
+                tip
+                img
+                name
+                phone
+            }
         }
     }
 `;
 
-export const getContacts = async ():Promise<Contacts> => {
+export const getContacts = async ({limit, lastId}:Props = {}):Promise<Res> => {
     const {data} = await client.query({
         query,
-        fetchPolicy: 'cache-first'
+        fetchPolicy: 'cache-first',
+        variables: { limit, lastId }
     });
 
     return createRes(data);
 };
 
-const createRes = ({contacts}):Contacts => {
-    const res:Contacts = {};
+const createRes = ({contacts:{data, hasMore}}):Res => {
+    const contacts:Contacts = {};
 
-    for (let contact of contacts)
-        res[contact.id] = contact;
+    for (let contact of data)
+        contacts[contact.id] = contact;
 
-    return res;
+    return {
+        contacts,
+        hasMoreContacts: hasMore
+    };
 };

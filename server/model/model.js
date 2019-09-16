@@ -37,8 +37,8 @@ function editContact({id, contact}) {
 }
 
 function removeContact({id}) {
-    const contacts = getContacts();
-    const index = getContactIndex({ id });
+    const contacts = getAllContacts();
+    const index = getContactIndex(id, contacts);
 
     if (!~index)
         return null;
@@ -49,23 +49,8 @@ function removeContact({id}) {
     return contacts[index];
 }
 
-function getContactIndex({id}) {
-    let index = -1;
-    const contacts = getContacts();
-
-    for (let i = 0; i < contacts.length; i++) {
-        if (contacts[i].id === id) {
-            index = i;
-
-            break;
-        }
-    }
-
-    return index;
-}
-
 function getContact({id}) {
-    const contacts = getContacts();
+    const contacts = getAllContacts();
 
     for (let contact of contacts)
         if (contact.id === id)
@@ -74,8 +59,43 @@ function getContact({id}) {
     return null;
 }
 
-function getContacts() {
-    return db.getData('/contacts');
+/**
+ * @param {{lastId?:number, limit?:number}} [args]
+ * @return {{hasMore:boolean, data:Object[]}}
+ */
+function getContacts(args = {}) {
+    const def = {
+        limit: 10,
+        lastId: null
+    };
+
+    let {lastId, limit} = Object.assign({}, def, args);
+
+    const maxLimit = 20;
+    const contacts = getAllContacts();
+
+    limit = Math.min(limit, maxLimit);
+
+    const startIndex = getNextContactIndex(lastId, contacts);
+    const endIndex = Math.min(startIndex + limit, contacts.length);
+
+    const resContacts = ~startIndex
+        ? contacts.slice(startIndex, endIndex)
+        : null;
+
+    return {
+        data: resContacts,
+        hasMore: endIndex < contacts.length
+    };
+}
+
+function getNextContactIndex(lastId = null, contacts = null) {
+    contacts = contacts || getAllContacts();
+    lastId = Math.max(+lastId || 0, 0) || null;
+
+    return lastId
+        ? getContactIndex(lastId, contacts) + 1
+        : 0;
 }
 
 function getCallsHistory({contactId}) {
@@ -88,6 +108,31 @@ function removeCallsHistory({contactId}) {
     const filter = item => item.contactId !== contactId;
 
     db.filter('/callsHistory', filter);
+}
+
+/**
+ * @param {number} id
+ * @param {Object|null} [contacts = null]
+ * @return {number}
+ */
+function getContactIndex(id, contacts = null) {
+    contacts = contacts || getAllContacts();
+
+    let index = -1;
+
+    for (let i = 0; i < contacts.length; i++) {
+        if (contacts[i].id === id) {
+            index = i;
+
+            break;
+        }
+    }
+
+    return index;
+}
+
+function getAllContacts() {
+    return db.getData('/contacts');
 }
 
 module.exports = {
