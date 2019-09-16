@@ -10,16 +10,12 @@ import css from './RegWindow.css';
 
 const {useState, useEffect, useCallback} = React;
 
-type Props = {
-    close:()=>void;
-};
-
-export const RegWindow = ({close}:Props) =>
+export const RegWindow = ({close}:T.Props) =>
     <ModalWindow title='Register' close={close}>
-        <Body/>
+        <Body close={close}/>
     </ModalWindow>;
 
-const Body = () => {
+const Body = ({close}:T.BodyProps) => {
     const [pass, setPass] = useState('');
     const [name, setName] = useState('');
     const [phone, setPhone] = useState('');
@@ -32,6 +28,8 @@ const Body = () => {
         const user = await createUser(data);
 
         console.log('User was created:', user);
+
+        close();
     };
 
     const onKeyDown = ({key}) => key === 'Enter' && submit();
