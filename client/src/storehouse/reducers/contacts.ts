@@ -18,7 +18,7 @@ export type State = {
 };
 
 const initialState:State = {
-    contacts: {},
+    contacts: [],
     callsHistory: {},
 
     hasMoreContacts: true,
@@ -46,7 +46,7 @@ const createSwitch = ({type, payload}:T.Action) =>
                 break;
 
             case Action.ADD_CONTACT:
-                draft.contacts[payload.contact.id] = payload.contact;
+                draft.contacts = [payload.contact].concat(draft.contacts);
                 break;
 
             case Action.REMOVE_CONTACT:
@@ -65,7 +65,7 @@ const createSwitch = ({type, payload}:T.Action) =>
                 const {contacts, hasMoreContacts} = payload;
 
                 draft.hasMoreContacts = hasMoreContacts;
-                draft.contacts = Object.assign({}, draft.contacts, contacts);
+                draft.contacts = draft.contacts.concat(contacts);
 
                 break;
             }

@@ -47,7 +47,7 @@ export type EditContactPayload = {
 export type FetchContacts = (payload:FetchContactsPayload)=>void;
 
 export type FetchContactsPayload = {
-    lastId:number|null;
+    contactsQty:number;
 };
 
 

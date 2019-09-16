@@ -1,3 +1,5 @@
+const {cloneDeep} = require('lodash');
+
 const {JsonDB} = require('node-json-db');
 const {Config} = require('node-json-db/dist/lib/JsonDBConfig');
 
@@ -60,23 +62,23 @@ function getContact({id}) {
 }
 
 /**
- * @param {{lastId?:number, limit?:number}} [args]
+ * @param {{contactsQty?:number, limit?:number}} [args]
  * @return {{hasMore:boolean, data:Object[]}}
  */
 function getContacts(args = {}) {
     const def = {
         limit: 10,
-        lastId: null
+        contactsQty: 0
     };
 
-    let {lastId, limit} = Object.assign({}, def, args);
+    let {contactsQty, limit} = Object.assign({}, def, args);
 
     const maxLimit = 20;
     const contacts = getAllContacts();
 
     limit = Math.min(limit, maxLimit);
 
-    const startIndex = getNextContactIndex(lastId, contacts);
+    const startIndex = getNextContactIndex(contactsQty);
     const endIndex = Math.min(startIndex + limit, contacts.length);
 
     const resContacts = ~startIndex
@@ -89,13 +91,10 @@ function getContacts(args = {}) {
     };
 }
 
-function getNextContactIndex(lastId = null, contacts = null) {
-    contacts = contacts || getAllContacts();
-    lastId = Math.max(+lastId || 0, 0) || null;
+function getNextContactIndex(contactsQty = 0) {
+    contactsQty = Math.max(+contactsQty || 0, 0);
 
-    return lastId
-        ? getContactIndex(lastId, contacts) + 1
-        : 0;
+    return contactsQty || 0;
 }
 
 function getCallsHistory({contactId}) {
@@ -132,7 +131,9 @@ function getContactIndex(id, contacts = null) {
 }
 
 function getAllContacts() {
-    return db.getData('/contacts');
+    const contacts = cloneDeep(db.getData('/contacts'));
+
+    return contacts.reverse();
 }
 
 module.exports = {

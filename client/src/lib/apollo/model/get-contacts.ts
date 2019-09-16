@@ -5,7 +5,7 @@ import {Contacts} from '@lib/entities/contacts/contact/types';
 
 type Props = {
     limit?:number;
-    lastId?:number|null;
+    contactsQty?:number;
 };
 
 type Res = {
@@ -14,8 +14,8 @@ type Res = {
 };
 
 export const query = gql`
-    query GetContacts($lastId:Int, $limit:Int) {
-        contacts(lastId:$lastId, limit:$limit) {
+    query GetContacts($contactsQty:Int, $limit:Int) {
+        contacts(contactsQty:$contactsQty, limit:$limit) {
             hasMore
             data {
                 id
@@ -28,24 +28,15 @@ export const query = gql`
     }
 `;
 
-export const getContacts = async ({limit, lastId}:Props = {}):Promise<Res> => {
-    const {data} = await client.query({
+export const getContacts = async ({limit, contactsQty}:Props = {}):Promise<Res> => {
+    const {data:{contacts}} = await client.query({
         query,
         fetchPolicy: 'cache-first',
-        variables: { limit, lastId }
+        variables: { limit, contactsQty }
     });
 
-    return createRes(data);
-};
-
-const createRes = ({contacts:{data, hasMore}}):Res => {
-    const contacts:Contacts = {};
-
-    for (let contact of data)
-        contacts[contact.id] = contact;
-
     return {
-        contacts,
-        hasMoreContacts: hasMore
+        contacts: contacts.data,
+        hasMoreContacts: contacts.hasMore
     };
 };

@@ -19,9 +19,9 @@ export const setCallsHistory = (payload:T.SetCallsHistoryPayload) => ({
     type: Action.SET_CALLS_HISTORY
 });
 
-export const fetchContacts = ({lastId}:T.FetchContactsPayload) =>
+export const fetchContacts = ({contactsQty}:T.FetchContactsPayload) =>
     async dispatch => {
-        const {contacts, hasMoreContacts} = await model.getContacts({ lastId });
+        const {contacts, hasMoreContacts} = await model.getContacts({ contactsQty });
         const action = setContacts({ contacts, hasMoreContacts });
 
         dispatch(action);

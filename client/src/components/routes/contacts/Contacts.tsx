@@ -30,6 +30,7 @@ const Contents = (props:T.ContactsProps) =>
 const Windows = (props:T.ContactsProps) =>
     <>
         <AddContactWindow
+            contacts={props.contacts}
             addContact={props.addContact}
             close={props.toggleAddContactWindow}
             active={props.needShowAddContactWindow}/>

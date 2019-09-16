@@ -2,7 +2,7 @@ const {gql} = require('apollo-server');
 
 module.exports = gql`
     type Query {
-        contacts(lastId:Int, limit:Int):Contacts
+        contacts(contactsQty:Int, limit:Int):Contacts
         callsHistory(contactId:Int!):[CallsHistoryItem]
     }
     

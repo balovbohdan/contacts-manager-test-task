@@ -23,8 +23,8 @@ export const mapDispatchToProps = dispatch => ({
 
         dispatch(action);
     },
-    fetchContacts({lastId}:TActions.FetchContactsPayload) {
-        const action = actions.fetchContacts({ lastId });
+    fetchContacts({contactsQty}:TActions.FetchContactsPayload) {
+        const action = actions.fetchContacts({ contactsQty });
 
         dispatch(action);
     },

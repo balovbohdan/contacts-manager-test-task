@@ -5,22 +5,19 @@ import css from './List.css';
 import * as T from './types';
 import {Contact} from '../contact';
 import {DataProvider} from './DataProvider';
-import {createContactsFetcher} from './contacts-fetcher';
 
 export const List = (props:T.Props) => {
-    const {contacts} = props;
-
-    const contactsQty = Object.keys(contacts).length;
-    const doFetchContacts = createContactsFetcher(contacts, props.fetchContacts);
+    const contactsQty = props.contacts.length;
+    const fetchContacts = () => props.fetchContacts({ contactsQty });
 
     return (
-        <DataProvider fetchContacts={doFetchContacts}>
+        <DataProvider fetchContacts={fetchContacts}>
             <Scroller
                 contactsQty={contactsQty}
-                fetchMore={doFetchContacts}
+                fetchMore={fetchContacts}
                 hasMore={props.hasMoreContacts}>
                 <Items
-                    contacts={contacts}
+                    contacts={props.contacts}
                     toggleContactWindow={props.toggleContactWindow}/>
             </Scroller>
         </DataProvider>
@@ -49,7 +46,7 @@ const Items = ({contacts, toggleContactWindow}:T.ItemsProps) => {
             contact={contact}
             toggleContactWindow={toggleContactWindow}/>;
 
-    const items = Object.values(contacts).map(mapper);
+    const items = contacts.map(mapper);
 
     return <>{items}</>;
 };
