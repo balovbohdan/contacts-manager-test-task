@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import {ModalWindow} from '@components/modal-window';
 
-import {Form} from '../form';
+import {ContactForm} from '../contact-form';
 import {Props} from './types';
 import {createSubmit} from './utils';
 
@@ -14,7 +14,7 @@ export const EditContactWindow = ({edit, close, contact}:Props) => {
 
     return (
         <ModalWindow close={close} title={title}>
-            <Form def={def} submit={submit}/>
+            <ContactForm def={def} submit={submit}/>
         </ModalWindow>
     );
 };

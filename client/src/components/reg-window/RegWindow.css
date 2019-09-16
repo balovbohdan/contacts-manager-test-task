@@ -1,0 +1,13 @@
+.main {
+    margin-top: 20px;
+}
+
+.line {
+    margin-bottom: 40px;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

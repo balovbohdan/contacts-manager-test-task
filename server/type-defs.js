@@ -7,10 +7,18 @@ module.exports = gql`
     }
     
     type Mutation {
+        createUser(pass:String!, name:String!, phone:String!):User
+    
         removeContact(id:Int!):Contact
         addContact(contact:AddContactInput!):Contact
         call(callsHistoryItem:CallInput!):CallsHistoryItem
         editContact(id:Int!, contact:EditContactInput!):Contact
+    }
+    
+    type User {
+        id:Int
+        name:String
+        phone:String
     }
     
     type Contacts {

@@ -1,28 +1,32 @@
 module.exports = {
     Query: {
         contacts: (_, args, {model}) =>
-            model.getContacts(args),
+            model.contacts.getContacts(args),
 
         callsHistory: (_, {contactId}, {model}) =>
-            model.getCallsHistory({ contactId })
+            model.contacts.getCallsHistory({ contactId })
     },
     Mutation: {
         call(_, {callsHistoryItem}, {model}) {
-            model.call({ callsHistoryItem });
+            model.contacts.call({ callsHistoryItem });
 
             return callsHistoryItem;
         },
 
         editContact: (_, {id, contact}, {model}) =>
-            model.editContact({id, contact}),
+            model.contacts.editContact({id, contact}),
 
         removeContact: (_, {id}, {model}) =>
-            model.removeContact({ id }),
+            model.contacts.removeContact({ id }),
 
         addContact(_, {contact}, {model}) {
-            model.addContact({contact});
+            model.contacts.addContact({contact});
 
             return contact;
-        }
+        },
+
+
+        createUser: (_, {pass, name, phone}, {model}) =>
+            model.users.createUser({ pass, name, phone })
     }
 };

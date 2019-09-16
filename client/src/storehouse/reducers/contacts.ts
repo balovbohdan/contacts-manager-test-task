@@ -80,11 +80,14 @@ const createSwitch = ({type, payload}:T.Action) =>
             case Action.EDIT_CONTACT: {
                 const {id, contact} = payload;
 
-                draft.contacts[id] = Object.assign(
-                    {},
-                    draft.contacts[id],
-                    contact
-                );
+                for (let i = 0; i < draft.contacts.length; i++) {
+                    const draftContact = draft.contacts[i];
+
+                    if (draftContact.id === id) {
+                        draft.contacts[i] = Object.assign({}, draftContact, contact);
+                        break;
+                    }
+                }
 
                 break;
             }

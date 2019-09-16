@@ -1,4 +1,4 @@
-import * as T from '../form/types';
+import * as T from '../contact-form/types';
 import {EditContact} from '@storehouse/actions/contacts/types';
 
 import {Close} from './types';

@@ -1,0 +1,11 @@
+.main {}
+
+.inputWrapper {
+    margin: 20px 0 40px;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

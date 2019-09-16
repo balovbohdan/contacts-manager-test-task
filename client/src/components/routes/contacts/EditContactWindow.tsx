@@ -6,6 +6,7 @@ import {EditContact} from '@storehouse/actions/contacts/types';
 import {
     EditContactWindow as Base
 } from '@components/contacts-manager/edit-contact-window';
+import {findContact} from '@lib/entities/contacts';
 
 type Props = {
     close:()=>void;
@@ -21,7 +22,10 @@ export const EditContactWindow = (props:Props) => {
     if (typeof active !== 'number')
         return null;
 
-    const contact = props.contacts[active];
+    const contact = findContact(active, props.contacts);
+
+    if (!contact)
+        return null;
 
     return typeof contact !== 'object'
         ? null

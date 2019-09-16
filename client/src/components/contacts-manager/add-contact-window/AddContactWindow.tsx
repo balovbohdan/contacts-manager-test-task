@@ -4,7 +4,7 @@ import {ModalWindow} from '@components/modal-window';
 import {T as Actions} from '@storehouse/actions/contacts';
 import {Contact, Contacts} from '@lib/entities/contacts/contact/types';
 
-import {T, Form} from '../form';
+import {T, ContactForm} from '../contact-form';
 
 type Props = {
     close:Close;
@@ -19,7 +19,7 @@ export const AddContactWindow = (props:Props) => {
 
     return (
         <ModalWindow close={props.close} title='Add contact'>
-            <Form submit={submit}/>
+            <ContactForm submit={submit}/>
         </ModalWindow>
     );
 };

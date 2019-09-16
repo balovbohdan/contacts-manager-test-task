@@ -27,6 +27,11 @@ const mapDispatchToProps = dispatch => ({
         const action = actions.toggleRegWindow();
 
         dispatch(action);
+    },
+    toggleLoginWindow() {
+        const action = actions.toggleLoginWindow();
+
+        dispatch(action);
     }
 });
 
