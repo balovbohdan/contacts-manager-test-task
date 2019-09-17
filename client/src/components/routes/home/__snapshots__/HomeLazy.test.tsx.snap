@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home route, lazy version Should match snapshot 1`] = `
+<Suspense
+  fallback={<Unknown />}
+>
+  <lazy />
+</Suspense>
+`;

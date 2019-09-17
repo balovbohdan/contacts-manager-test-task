@@ -1,7 +1,7 @@
 import * as React from 'react';
 import classnames from 'classnames';
 
-import submitBtnCss from '@css/submit-btn.css';
+import * as submitBtnCss from '@css/submit-btn.css';
 
 type Props = {
     submit:()=>void;
@@ -9,10 +9,12 @@ type Props = {
 };
 
 export const SubmitBtn = ({submit, isDataValid}:Props) => {
+    const doSubmit = () => isDataValid && submit();
+
     const className = classnames({
         [submitBtnCss.submitBtn]: true,
         [submitBtnCss.submitBtn__disabled]: !isDataValid
     });
 
-    return <div onClick={submit} className={className}>Submit</div>;
+    return <div onClick={doSubmit} className={className}>Submit</div>;
 };

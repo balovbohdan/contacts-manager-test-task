@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 import {paths} from '@routes';
 
-import css from './Cover.css';
+import * as css from './Cover.css';
 
 export const Cover = () =>
     <div className={css.main}>

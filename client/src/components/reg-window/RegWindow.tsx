@@ -1,12 +1,12 @@
 import * as React from 'react';
 
-import inputCss from '@css/input.css';
+import * as inputCss from '@css/input.css';
 import {createUser} from '@lib/apollo/model';
 import {ModalWindow, SubmitBtn} from '@components/modal-window';
 
 import * as T from './types';
 import * as utils from './utils';
-import css from './RegWindow.css';
+import * as css from './RegWindow.css';
 
 const {useState, useEffect, useCallback} = React;
 

@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 import {paths} from '@routes';
 
-import css from './LeftBar.css';
+import * as css from './LeftBar.css';
 
 export const LeftBar = () =>
     <div className={css.main}>

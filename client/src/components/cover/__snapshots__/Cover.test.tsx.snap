@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main page Cover Should match snapshot 1`] = `
+<div
+  className="main"
+>
+  <Img />
+  <Slogan />
+  <TryItBtn />
+</div>
+`;

@@ -1,11 +1,11 @@
 import * as React from 'react';
 
 import img from '@img/user.svg';
-import inputCss from '@css/input.css';
+import * as inputCss from '@css/input.css';
 import {SubmitBtn} from '@components/modal-window';
 
 import * as T from './types';
-import css from './ContactForm.css';
+import * as css from './ContactForm.css';
 import * as utils from './utils';
 
 const {useState, useEffect, useCallback} = React;

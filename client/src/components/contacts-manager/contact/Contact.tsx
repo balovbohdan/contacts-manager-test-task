@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import * as T from './types';
-import css from './Contact.css';
+import * as css from './Contact.css';
 
 export const Contact = ({contact, toggleContactWindow}:T.Props) => {
     const {id, img, name} = contact;

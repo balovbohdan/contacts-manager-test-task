@@ -8,7 +8,7 @@ import {Contact, Contacts} from '@lib/entities/contacts/contact/types';
 import {FetchCallsHistory} from '@storehouse/actions/contacts/types';
 
 import * as utils from '../utils';
-import css from './CallsHistory.css';
+import * as css from './CallsHistory.css';
 import {DataProvider} from './DataProvider';
 
 type Props = {

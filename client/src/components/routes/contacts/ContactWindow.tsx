@@ -11,12 +11,12 @@ type Props = {
     close:()=>void;
     call:Actions.Call;
     remove:Actions.RemoveContact;
+    fetchCallsHistory:Actions.FetchCallsHistory;
     toggleEditWindow:Actions.ToggleEditContactWindow;
 
     contacts:Contacts;
     active:boolean|number;
     callsHistory:T.CallsHistory;
-    fetchCallsHistory:Actions.FetchCallsHistory;
 };
 
 export const ContactWindow = (props:Props) => {

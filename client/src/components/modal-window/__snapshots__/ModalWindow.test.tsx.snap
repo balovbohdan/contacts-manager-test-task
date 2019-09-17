@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalWindow Should match snapshot 1`] = `
+<Component>
+  <div
+    className="main"
+    onClick={[Function]}
+  >
+    <div
+      className="body"
+    >
+      <Head
+        close={[MockFunction]}
+        title="Foo"
+      />
+      Foo
+    </div>
+  </div>
+</Component>
+`;

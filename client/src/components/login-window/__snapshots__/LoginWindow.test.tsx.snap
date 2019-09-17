@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginWindow Should match snapshot 1`] = `
+<Component
+  close={[MockFunction]}
+  title="Login"
+>
+  <h1>
+    Login Window Body
+  </h1>
+</Component>
+`;

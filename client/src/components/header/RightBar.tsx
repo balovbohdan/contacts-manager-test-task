@@ -1,6 +1,7 @@
 import * as React from 'react';
+import classnames from 'classnames';
 
-import css from './RightBar.css';
+import * as css from './RightBar.css';
 
 type Props = {
     toggleRegWindow:()=>void;
@@ -14,16 +15,27 @@ export const RightBar = (props:Props) =>
         <LoginBtn onClick={props.toggleLoginWindow}/>
     </div>;
 
-const Btn = ({onClick, children}) =>
-    <div className={css.btn} onClick={onClick}>
-        {children}
-    </div>;
+const Btn = ({onClick, children, className}) => {
+    const classNames = classnames(css.btn, className);
+
+    return (
+        <div className={classNames} onClick={onClick}>
+            {children}
+        </div>
+    );
+};
 
 const LoginBtn = ({onClick}) =>
-    <Btn onClick={onClick}>Login</Btn>;
+    <Btn onClick={onClick} className={css.btn__login}>
+        Login
+    </Btn>;
 
 const RegBtn = ({onClick}) =>
-    <Btn onClick={onClick}>Register</Btn>;
+    <Btn onClick={onClick} className={css.btn__reg}>
+        Register
+    </Btn>;
 
 const AboutBtn = () =>
-    <Btn onClick={()=>{}}>About</Btn>;
+    <Btn onClick={()=>{}} className={css.btn__about}>
+        About
+    </Btn>;

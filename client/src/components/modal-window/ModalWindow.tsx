@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import {Fader} from '@components/fader';
 
-import css from './ModalWindow.css';
+import * as css from './ModalWindow.css';
 
 type Props = {
     close:Close;

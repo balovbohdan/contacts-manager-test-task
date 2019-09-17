@@ -3,7 +3,7 @@ import * as React from 'react';
 import {LeftBar} from './LeftBar';
 import {RightBar} from './RightBar';
 
-import css from './Header.css';
+import * as css from './Header.css';
 
 type Props = {
     toggleRegWindow:()=>void;

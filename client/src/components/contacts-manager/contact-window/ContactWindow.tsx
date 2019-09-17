@@ -5,7 +5,7 @@ import {findContact} from '@lib/entities/contacts';
 import {ModalWindow} from '@components/modal-window';
 
 import * as T from './types';
-import css from './ContactWindow.css';
+import * as css from './ContactWindow.css';
 import {CallsHistory} from './calls-history';
 
 export const ContactWindow = (props:T.Props) => {

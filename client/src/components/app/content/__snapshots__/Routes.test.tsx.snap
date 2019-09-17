@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Routes Should match snapshot 1`] = `
+<Fragment>
+  <Route
+    component={[Function]}
+    exact={true}
+    key="/"
+    path="/"
+  />
+  <Route
+    component={[Function]}
+    exact={false}
+    key="/contacts"
+    path="/contacts"
+  />
+</Fragment>
+`;

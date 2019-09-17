@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import {List} from './list';
 import * as T from './types';
-import css from './ContactsManager.css';
+import * as css from './ContactsManager.css';
 
 export const ContactsManager = (props:T.Props) =>
     <div className={css.main}>

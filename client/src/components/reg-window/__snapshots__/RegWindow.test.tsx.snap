@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Registration window Should match snapshot 1`] = `
+<Component
+  close={[MockFunction]}
+  title="Register"
+>
+  <Body
+    close={[MockFunction]}
+  />
+</Component>
+`;

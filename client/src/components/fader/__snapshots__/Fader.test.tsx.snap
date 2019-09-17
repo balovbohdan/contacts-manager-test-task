@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fader Should match snapshot 1`] = `
+<Fade
+  timeout={400}
+>
+  Foo
+</Fade>
+`;

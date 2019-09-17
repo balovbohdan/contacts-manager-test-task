@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactWindow, root version Should match snapshot when active 1`] = `""`;
+
+exports[`ContactWindow, root version Should match snapshot when not active 1`] = `""`;

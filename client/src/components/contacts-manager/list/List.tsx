@@ -1,7 +1,7 @@
 import * as React from 'react';
 import InfiniteScroll from 'react-infinite-scroll-component';
 
-import css from './List.css';
+import * as css from './List.css';
 import * as T from './types';
 import {Contact} from '../contact';
 import {DataProvider} from './DataProvider';

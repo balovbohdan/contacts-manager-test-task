@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Root App Should match snapshot 1`] = `
+<Component>
+  <Component>
+    <Connect(C) />
+  </Component>
+</Component>
+`;

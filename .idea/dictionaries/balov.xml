@@ -1,6 +1,7 @@
 <component name="ProjectDictionaryState">
   <dictionary name="balov">
     <words>
+      <w>btns</w>
       <w>classnames</w>
       <w>defs</w>
       <w>dirname</w>
@@ -10,6 +11,7 @@
       <w>pbkdf</w>
       <w>postcss</w>
       <w>preloader</w>
+      <w>redux</w>
       <w>refetch</w>
       <w>scroller</w>
       <w>tsconfig</w>
