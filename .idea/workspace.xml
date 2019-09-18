@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad102abb-e156-4de8-acd7-836e342aea10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/ContactsManager.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/add-contact-window/AddContactWindow.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/contact-form/ContactForm.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/contact-form/utils.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/contact-window/ContactWindow.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/contact-window/calls-history/CallsHistory.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/contact-window/calls-history/DataProvider.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/contact-window/utils.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/contact/Contact.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/edit-contact-window/EditContactWindow.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/edit-contact-window/utils.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/list/DataProvider.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/list/List.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/modal-window/SubmitBtn.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/routes/contacts/EditContactWindow.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/lib/entities/calls-history/utils.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/lib/entities/contacts/utils.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/storehouse/actions/contacts/contacts.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/storehouse/actions/root/root.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/balov.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/balov.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/clover.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/clover.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/coverage-final.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/coverage-final.json" afterDir="false" />
@@ -29,62 +15,45 @@
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/app/content/Routes.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/app/content/Routes.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/app/content/Windows.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/app/content/Windows.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/app/content/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/app/content/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/app/content/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/app/content/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/app/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/app/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/ContactsManager.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/ContactsManager.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/add-contact-window/AddContactWindow.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/add-contact-window/AddContactWindow.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/add-contact-window/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/add-contact-window/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/add-contact-window/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/add-contact-window/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact-form/ContactForm.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact-form/ContactForm.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact-form/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact-form/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact-form/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact-form/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact-form/utils.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact-form/utils.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact-window/ContactWindow.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact-window/ContactWindow.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact-window/calls-history/CallsHistory.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact-window/calls-history/CallsHistory.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact-window/calls-history/DataProvider.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact-window/calls-history/DataProvider.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact-window/calls-history/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact-window/calls-history/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact-window/calls-history/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact-window/calls-history/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact-window/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact-window/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact-window/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact-window/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact-window/utils.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact-window/utils.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact/Contact.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact/Contact.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/contact/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/edit-contact-window/EditContactWindow.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/edit-contact-window/EditContactWindow.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/edit-contact-window/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/edit-contact-window/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/edit-contact-window/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/edit-contact-window/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/edit-contact-window/utils.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/edit-contact-window/utils.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/list/DataProvider.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/list/DataProvider.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/list/List.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/list/List.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/list/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/list/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/list/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/contacts-manager/list/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/cover/Cover.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/cover/Cover.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/cover/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/cover/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/cover/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/cover/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/fader/Fader.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/fader/Fader.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/fader/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/fader/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/fader/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/fader/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/header/Header.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/header/Header.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/header/LeftBar.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/header/LeftBar.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/header/RightBar.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/header/RightBar.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/header/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/header/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/header/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/header/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/login-window/LoginWindow.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/login-window/LoginWindow.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/login-window/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/login-window/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/login-window/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/login-window/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/modal-window/ModalWindow.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/modal-window/ModalWindow.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/modal-window/SubmitBtn.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/modal-window/SubmitBtn.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/modal-window/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/modal-window/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/modal-window/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/modal-window/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/page-preloader/PagePreloader.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/page-preloader/PagePreloader.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/page-preloader/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/page-preloader/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/page-preloader/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/page-preloader/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/reg-window/RegWindow.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/reg-window/RegWindow.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/reg-window/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/reg-window/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/reg-window/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/reg-window/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/reg-window/utils.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/reg-window/utils.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/routes/contacts/AddContactWindow.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/routes/contacts/AddContactWindow.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/routes/contacts/ContactWindow.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/routes/contacts/ContactWindow.tsx.html" afterDir="false" />
@@ -92,18 +61,12 @@
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/routes/contacts/ContactsLazy.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/routes/contacts/ContactsLazy.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/routes/contacts/EditContactWindow.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/routes/contacts/EditContactWindow.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/routes/contacts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/routes/contacts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/routes/contacts/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/routes/contacts/index.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/routes/contacts/redux-connect-props.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/routes/contacts/redux-connect-props.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/routes/home/Home.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/routes/home/Home.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/routes/home/HomeLazy.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/routes/home/HomeLazy.tsx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/routes/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/routes/home/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/routes/home/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/routes/home/index.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/routes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/routes/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/components/routes/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/components/routes/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/lib/apollo/client.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/lib/apollo/client.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/lib/apollo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/lib/apollo/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/lib/apollo/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/lib/apollo/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/lib/apollo/model/add-contact.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/lib/apollo/model/add-contact.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/lib/apollo/model/call.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/lib/apollo/model/call.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/lib/apollo/model/create-user.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/lib/apollo/model/create-user.ts.html" afterDir="false" />
@@ -111,58 +74,29 @@
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/lib/apollo/model/get-calls-history.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/lib/apollo/model/get-calls-history.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/lib/apollo/model/get-contacts.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/lib/apollo/model/get-contacts.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/lib/apollo/model/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/lib/apollo/model/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/lib/apollo/model/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/lib/apollo/model/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/lib/apollo/model/remove-contact.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/lib/apollo/model/remove-contact.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/lib/entities/calls-history/CallType.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/lib/entities/calls-history/CallType.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/lib/entities/calls-history/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/lib/entities/calls-history/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/lib/entities/calls-history/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/lib/entities/calls-history/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/lib/entities/calls-history/utils.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/lib/entities/calls-history/utils.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/lib/entities/contacts/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/lib/entities/contacts/contact/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/lib/entities/contacts/contact/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/lib/entities/contacts/contact/index.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/lib/entities/contacts/find-contact.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/lib/entities/contacts/find-contact.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/lib/entities/contacts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/lib/entities/contacts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/lib/entities/contacts/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/lib/entities/contacts/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/lib/entities/contacts/utils.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/lib/entities/contacts/utils.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/lib/math/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/lib/math/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/lib/math/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/lib/math/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/lib/math/rnd-number-generator.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/lib/math/rnd-number-generator.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/Action.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/Action.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/actions/contacts/contacts.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/actions/contacts/contacts.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/actions/contacts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/actions/contacts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/actions/contacts/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/actions/contacts/index.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/actions/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/actions/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/actions/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/actions/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/actions/root/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/actions/root/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/actions/root/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/actions/root/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/actions/root/root.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/actions/root/root.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/reducers/contacts.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/reducers/contacts.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/reducers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/reducers/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/reducers/index.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/reducers/index.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/reducers/root.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/reducers/root.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/store.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov-report/storehouse/store.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/client/coverage/lcov.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/jest.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/app/content/Windows.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/app/content/Windows.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/contacts-manager/add-contact-window/AddContactWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/add-contact-window/AddContactWindow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/contacts-manager/contact-window/ContactWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/contact-window/ContactWindow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/contacts-manager/contact-window/calls-history/CallsHistory.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/contact-window/calls-history/CallsHistory.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/contacts-manager/contact-window/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/contact-window/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/contacts-manager/edit-contact-window/EditContactWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/edit-contact-window/EditContactWindow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/contacts-manager/edit-contact-window/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/edit-contact-window/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/contacts-manager/list/List.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts-manager/list/List.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/modal-window/SubmitBtn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/modal-window/SubmitBtn.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/modal-window/__snapshots__/SubmitBtn.test.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/modal-window/__snapshots__/SubmitBtn.test.tsx.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/routes/contacts/AddContactWindow.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/routes/contacts/AddContactWindow.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/routes/contacts/ContactWindow.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/routes/contacts/ContactWindow.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/routes/contacts/ContactWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/routes/contacts/ContactWindow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/routes/contacts/EditContactWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/routes/contacts/EditContactWindow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/routes/contacts/__snapshots__/AddContactWindow.test.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/routes/contacts/__snapshots__/AddContactWindow.test.tsx.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/routes/contacts/__snapshots__/ContactWindow.test.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/routes/contacts/__snapshots__/ContactWindow.test.tsx.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/lib/entities/contacts/find-contact.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/lib/entities/contacts/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/lib/entities/contacts/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/lib/entities/contacts/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/lib/entities/contacts/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/storehouse/actions/contacts/contacts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/storehouse/actions/contacts/contacts.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -177,7 +111,7 @@
     <session id="-2106388313">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
@@ -193,13 +127,13 @@
           <entry key="gitignore" value="3" />
           <entry key="html" value="5" />
           <entry key="ico" value="1" />
-          <entry key="js" value="131" />
-          <entry key="json" value="59" />
+          <entry key="js" value="133" />
+          <entry key="json" value="61" />
           <entry key="sh" value="7" />
           <entry key="src" value="1" />
           <entry key="svg" value="11" />
           <entry key="tes" value="1" />
-          <entry key="ts" value="563" />
+          <entry key="ts" value="580" />
           <entry key="tsx" value="490" />
         </counts>
       </usages-collector>
@@ -210,11 +144,11 @@
           <entry key="Dockerfile" value="1" />
           <entry key="HTML" value="5" />
           <entry key="Image" value="1" />
-          <entry key="JSON" value="50" />
-          <entry key="JavaScript" value="131" />
+          <entry key="JSON" value="52" />
+          <entry key="JavaScript" value="133" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="SVG" value="11" />
-          <entry key="TypeScript" value="563" />
+          <entry key="TypeScript" value="580" />
           <entry key="TypeScript JSX" value="490" />
           <entry key="tsconfig" value="12" />
         </counts>
@@ -225,11 +159,11 @@
           <entry key="css" value="8304" />
           <entry key="gitignore" value="70" />
           <entry key="html" value="40" />
-          <entry key="js" value="10390" />
-          <entry key="json" value="1266" />
+          <entry key="js" value="10423" />
+          <entry key="json" value="1351" />
           <entry key="sh" value="262" />
-          <entry key="ts" value="23711" />
-          <entry key="tsx" value="55925" />
+          <entry key="ts" value="26269" />
+          <entry key="tsx" value="55941" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -237,11 +171,11 @@
           <entry key="Bash" value="262" />
           <entry key="CSS" value="8304" />
           <entry key="HTML" value="40" />
-          <entry key="JSON" value="1418" />
-          <entry key="JavaScript" value="10390" />
+          <entry key="JSON" value="1503" />
+          <entry key="JavaScript" value="10423" />
           <entry key="PLAIN_TEXT" value="70" />
-          <entry key="TypeScript" value="23711" />
-          <entry key="TypeScript JSX" value="55925" />
+          <entry key="TypeScript" value="26269" />
+          <entry key="TypeScript JSX" value="55941" />
           <entry key="tsconfig" value="91" />
         </counts>
       </usages-collector>
@@ -253,16 +187,16 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.39766607">
+    <splitter split-orientation="horizontal" split-proportion="0.4707401">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/client/src/components/app/content/Windows.tsx">
+            <entry file="file://$PROJECT_DIR$/client/src/storehouse/actions/contacts/contacts.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="104">
-                  <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+                <state relative-caret-position="-8">
+                  <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
                   <folding>
-                    <element signature="e#0#31#0" expanded="true" />
+                    <element signature="e#0#35#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -272,14 +206,23 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/client/src/components/app/content/Windows.test.tsx">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/src/storehouse/actions/contacts/contacts.test.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-134">
-                  <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+                <state>
+                  <caret selection-end-column="17" />
                   <folding>
-                    <element signature="e#0#31#0" expanded="true" />
+                    <element signature="e#0#21#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/client/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="61">
+                  <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -290,8 +233,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>removeConta</find>
-      <find>input</find>
       <find>submit</find>
       <find>submitBtn</find>
       <find>1111</find>
@@ -320,6 +261,8 @@
       <find>submit-btn</find>
       <find>Date.now</find>
       <find>css</find>
+      <find>import thunk from</find>
+      <find>jest</find>
     </findStrings>
     <replaceStrings>
       <replace>TSConfigPathsPlugin</replace>
@@ -359,11 +302,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/src/components/app/Apollo.test.tsx" />
-        <option value="$PROJECT_DIR$/client/src/components/app/content/Routes.test.tsx" />
-        <option value="$PROJECT_DIR$/client/src/components/app/Redux.test.tsx" />
-        <option value="$PROJECT_DIR$/client/src/lib/apollo/client.ts" />
-        <option value="$PROJECT_DIR$/client/package.json" />
         <option value="$PROJECT_DIR$/client/src/components/app/content/Content.test.tsx" />
         <option value="$PROJECT_DIR$/client/src/components/page-preloader/PagePreloader.test.tsx" />
         <option value="$PROJECT_DIR$/client/src/components/reg-window/utils.test.ts" />
@@ -391,7 +329,6 @@
         <option value="$PROJECT_DIR$/client/src/components/contacts-manager/edit-contact-window/EditContactWindow.tsx" />
         <option value="$PROJECT_DIR$/client/src/components/contacts-manager/contact-window/calls-history/CallsHistory.tsx" />
         <option value="$PROJECT_DIR$/client/src/components/contacts-manager/contact-form/ContactForm.tsx" />
-        <option value="$PROJECT_DIR$/client/jest.config.js" />
         <option value="$PROJECT_DIR$/client/src/components/modal-window/SubmitBtn.css" />
         <option value="$PROJECT_DIR$/client/src/components/contacts-manager/edit-contact-window/EditContactWindow.test.tsx" />
         <option value="$PROJECT_DIR$/client/src/components/modal-window/SubmitBtn.tsx" />
@@ -410,6 +347,12 @@
         <option value="$PROJECT_DIR$/client/src/components/contacts-manager/list/List.test.tsx" />
         <option value="$PROJECT_DIR$/client/src/components/contacts-manager/list/List.tsx" />
         <option value="$PROJECT_DIR$/client/src/components/app/content/Windows.test.tsx" />
+        <option value="$PROJECT_DIR$/client/jest.config.js" />
+        <option value="$PROJECT_DIR$/client/src/components/app/content/Windows.tsx" />
+        <option value="$PROJECT_DIR$/client/src/storehouse/actions/contacts/contacts.ts" />
+        <option value="$PROJECT_DIR$/client/src/storehouse/actions/root/root.test.ts" />
+        <option value="$PROJECT_DIR$/client/src/storehouse/actions/contacts/contacts.test.ts" />
+        <option value="$PROJECT_DIR$/client/package.json" />
       </list>
     </option>
   </component>
@@ -484,69 +427,6 @@
               <item name="test-task-for-dmytro-haponov" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="test-task-for-dmytro-haponov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task-for-dmytro-haponov" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task-for-dmytro-haponov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task-for-dmytro-haponov" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task-for-dmytro-haponov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task-for-dmytro-haponov" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task-for-dmytro-haponov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task-for-dmytro-haponov" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task-for-dmytro-haponov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task-for-dmytro-haponov" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="contacts-manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task-for-dmytro-haponov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task-for-dmytro-haponov" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="contacts-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="contact-window" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task-for-dmytro-haponov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task-for-dmytro-haponov" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="contacts-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task-for-dmytro-haponov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task-for-dmytro-haponov" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -595,7 +475,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.RightBar of Header.Should react on btns clicks">
+  <component name="RunManager" selected="npm.test:watch">
     <configuration name="RightBar of Header.Should react on btns clicks" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -607,16 +487,6 @@
         <test-name value="RightBar of Header" />
         <test-name value="Should react on btns clicks" />
       </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="build" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/client/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
       <method v="2" />
     </configuration>
     <configuration name="start (2)" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
@@ -649,20 +519,30 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test:watch" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test:watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="npm.start (2)" />
-      <item itemvalue="npm.build" />
       <item itemvalue="npm.start" />
       <item itemvalue="npm.test" />
       <item itemvalue="Jest.RightBar of Header.Should react on btns clicks" />
+      <item itemvalue="npm.test:watch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test:watch" />
         <item itemvalue="Jest.RightBar of Header.Should react on btns clicks" />
         <item itemvalue="npm.test" />
         <item itemvalue="npm.start (2)" />
         <item itemvalue="npm.start" />
-        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -704,18 +584,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140223000" />
+    <option name="totallyTimeSpent" value="143257000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20314735" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16881259" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298351" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.050974514" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6281859" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -761,80 +640,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/src/components/routes/contacts/redux-connect-props.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/routes/contacts/EditContactWindow.test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-536">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/routes/contacts/AddContactWindow.test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/routes/contacts/ContactWindow.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/routes/contacts/EditContactWindow.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/lib/entities/contacts/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/lib/entities/contacts/find-contact.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/lib/entities/calls-history/utils.test.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/lib/entities/contacts/utils.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/lib/entities/contacts/utils.test.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -916,13 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/jest.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/css/submit-btn.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -985,20 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/lib/entities/calls-history/types.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/lib/entities/contacts/contact/types.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1167,23 +951,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/app/content/Windows.tsx">
+    <entry file="file://$PROJECT_DIR$/client/src/components/app/content/Windows.test.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="208">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/app/content/Windows.test.tsx">
+    <entry file="file://$PROJECT_DIR$/client/src/lib/apollo/client.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134">
-          <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+        <state relative-caret-position="322">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/lib/apollo/model/add-contact.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/jest.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/app/content/Windows.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/lib/entities/calls-history/types.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/storehouse/actions/root/root.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/storehouse/actions/root/root.test.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/lib/entities/contacts/contact/types.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/storehouse/actions/contacts/types.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/storehouse/actions/contacts/contacts.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/postcss.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/storehouse/actions/contacts/contacts.test.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="17" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
         </state>
       </provider>
     </entry>

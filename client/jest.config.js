@@ -14,7 +14,8 @@ module.exports = {
         'node_modules',
         'redux-connect-props',
         '<rootDir>/src/index.tsx',
-        '<rootDir>/src/config.ts'
+        '<rootDir>/src/config.ts',
+        '<rootDir>/src/lib/apollo/'
     ],
     moduleNameMapper: {
         '@root/?(.*)$': '<rootDir>/src/$1',

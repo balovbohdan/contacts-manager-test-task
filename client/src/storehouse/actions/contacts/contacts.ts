@@ -6,26 +6,10 @@ import {CallType} from '@lib/entities/calls-history';
 
 import * as T from './types';
 
-export const fetchCallsHistory = ({contactId}:T.FetchCallsHistoryPayload) =>
-    async dispatch => {
-        const callsHistory = await model.getCallsHistory({ contactId });
-        const action = setCallsHistory({ callsHistory });
-
-        dispatch(action);
-    };
-
 export const setCallsHistory = (payload:T.SetCallsHistoryPayload) => ({
     payload,
     type: Action.SET_CALLS_HISTORY
 });
-
-export const fetchContacts = ({contactsQty}:T.FetchContactsPayload) =>
-    async dispatch => {
-        const {contacts, hasMoreContacts} = await model.getContacts({ contactsQty });
-        const action = setContacts({ contacts, hasMoreContacts });
-
-        dispatch(action);
-    };
 
 export const setContacts = (payload:T.SetContactsPayload) => ({
     payload,
@@ -45,6 +29,22 @@ export const toggleEditContactWindow = (payload?:T.ToggleEditContactWindowPayloa
     payload,
     type:Action.TOGGLE_EDIT_CONTACT_WINDOW
 });
+
+export const fetchCallsHistory = ({contactId}:T.FetchCallsHistoryPayload) =>
+    async dispatch => {
+        const callsHistory = await model.getCallsHistory({ contactId });
+        const action = setCallsHistory({ callsHistory });
+
+        dispatch(action);
+    };
+
+export const fetchContacts = ({contactsQty}:T.FetchContactsPayload) =>
+    async dispatch => {
+        const {contacts, hasMoreContacts} = await model.getContacts({ contactsQty });
+        const action = setContacts({ contacts, hasMoreContacts });
+
+        dispatch(action);
+    };
 
 export const addContact = (payload:T.AddContactPayload) => {
     const {contact} = payload;
