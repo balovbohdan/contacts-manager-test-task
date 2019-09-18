@@ -50,6 +50,9 @@ const Items = ({history, contacts}:ItemsProps) => {
         try {
             const contact = findContact(contactId, contacts);
 
+            if (!contact)
+                return null;
+
             return <Item key={id} time={time} type={type} toContact={contact}/>;
         } catch (e) {
             return null;

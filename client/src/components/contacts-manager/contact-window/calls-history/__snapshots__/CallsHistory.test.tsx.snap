@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CallsHistory Should match snapshot 1`] = `
+<Component
+  contactId={1}
+  fetchCallsHistory={[MockFunction]}
+>
+  <div
+    className="main"
+  >
+    <div
+      className="scrollWrapper"
+    >
+      <Items
+        contacts={
+          Array [
+            Object {
+              "id": 1,
+              "img": "/user.svg",
+              "name": "name",
+              "phone": "+380961514231",
+            },
+          ]
+        }
+        history={
+          Object {
+            "1": Object {
+              "contactId": 1,
+              "id": 1,
+              "time": 1568728308621,
+              "type": 1,
+            },
+          }
+        }
+      />
+    </div>
+  </div>
+</Component>
+`;

@@ -20,31 +20,31 @@
     </h1>
     <div class='clearfix'>
       <div class='fl pad1y space-right2'>
-        <span class="strong">44% </span>
+        <span class="strong">84% </span>
         <span class="quiet">Statements</span>
-        <span class='fraction'>11/25</span>
+        <span class='fraction'>21/25</span>
       </div>
       <div class='fl pad1y space-right2'>
-        <span class="strong">0% </span>
+        <span class="strong">100% </span>
         <span class="quiet">Branches</span>
-        <span class='fraction'>0/4</span>
+        <span class='fraction'>4/4</span>
       </div>
       <div class='fl pad1y space-right2'>
-        <span class="strong">0% </span>
+        <span class="strong">71.43% </span>
         <span class="quiet">Functions</span>
-        <span class='fraction'>0/7</span>
+        <span class='fraction'>5/7</span>
       </div>
       <div class='fl pad1y space-right2'>
-        <span class="strong">61.11% </span>
+        <span class="strong">77.78% </span>
         <span class="quiet">Lines</span>
-        <span class='fraction'>11/18</span>
+        <span class='fraction'>14/18</span>
       </div>
     </div>
     <p class="quiet">
       Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
     </p>
   </div>
-  <div class='status-line low'></div>
+  <div class='status-line high'></div>
 <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -125,22 +125,22 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">8x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">8x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">8x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -180,28 +180,28 @@ type WindowProps = {
     needShow:boolean;
 };
 &nbsp;
-const C = <span class="fstat-no" title="function not covered" >(p</span>rops:Props) =&gt;
-<span class="cstat-no" title="statement not covered" >    &lt;&gt;</span>
+const C = (props:Props) =&gt;
+    &lt;&gt;
         &lt;Reg close={props.closeReg} needShow={props.needShowReg}/&gt;
         &lt;Login close={props.closeLogin} needShow={props.needShowLogin}/&gt;
     &lt;/&gt;;
 &nbsp;
-const Reg = <span class="fstat-no" title="function not covered" >({<span class="cstat-no" title="statement not covered" ></span>close,</span> <span class="cstat-no" title="statement not covered" >needShow}</span>:WindowProps) =&gt;
-<span class="cstat-no" title="statement not covered" >    needShow</span>
+const Reg = ({close, needShow}:WindowProps) =&gt;
+    needShow
         ? &lt;RegWindow close={close}/&gt;
         : null;
 &nbsp;
-const Login = <span class="fstat-no" title="function not covered" >({<span class="cstat-no" title="statement not covered" ></span>close,</span> <span class="cstat-no" title="statement not covered" >needShow}</span>:WindowProps) =&gt;
-<span class="cstat-no" title="statement not covered" >    needShow</span>
+const Login = ({close, needShow}:WindowProps) =&gt;
+    needShow
         ? &lt;LoginWindow close={close}/&gt;
         : null;
 &nbsp;
-const mapStateToProps = <span class="fstat-no" title="function not covered" >({<span class="cstat-no" title="statement not covered" ></span>root}</span>:State) =&gt; <span class="cstat-no" title="statement not covered" >({</span>
+const mapStateToProps = ({root}:State) =&gt; ({
     needShowReg: root.needShowRegWindow,
     needShowLogin: root.needShowLoginWindow
 });
 &nbsp;
-const mapDispatchToProps = <span class="fstat-no" title="function not covered" >dispatch </span>=&gt; <span class="cstat-no" title="statement not covered" >({</span>
+const mapDispatchToProps = dispatch =&gt; ({
     closeReg<span class="fstat-no" title="function not covered" >() {</span>
         const action = <span class="cstat-no" title="statement not covered" >actions.toggleRegWindow();</span>
 &nbsp;
@@ -220,7 +220,7 @@ export const Windows = connect(mapStateToProps, mapDispatchToProps)(C);</pre></t
 </div><!-- /wrapper -->
 <div class='footer quiet pad2 space-top1 center small'>
   Code coverage
-  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Sep 17 2019 13:23:51 GMT+0300 (Eastern European Summer Time)
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Wed Sep 18 2019 11:33:56 GMT+0300 (Eastern European Summer Time)
 </div>
 </div>
 <script src="../../../prettify.js"></script>

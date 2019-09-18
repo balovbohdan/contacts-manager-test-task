@@ -8,8 +8,8 @@ export type Props = {
     contacts:Contacts;
     callsHistory:T.CallsHistory;
 
-    call:Actions.Call;
     close:()=>void;
+    call:Actions.Call;
     remove:Actions.RemoveContact;
     fetchCallsHistory:Actions.FetchCallsHistory;
     toggleEditWindow:Actions.ToggleEditContactWindow;

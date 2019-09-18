@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactsManager Should match snapshot 1`] = `
+<div
+  className="main"
+>
+  <Head
+    toggleAddContactWindow={[MockFunction]}
+  />
+  <Component
+    contacts={
+      Array [
+        Object {
+          "id": 1,
+          "img": "/user.svg",
+          "name": "name",
+          "phone": "+380967162534",
+        },
+      ]
+    }
+    fetchContacts={[MockFunction]}
+    hasMoreContacts={true}
+    toggleContactWindow={[MockFunction]}
+  />
+</div>
+`;

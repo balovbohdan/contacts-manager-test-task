@@ -10,6 +10,12 @@ type Props = {
     close:Close;
     contacts:Contacts;
     addContact:Actions.AddContact;
+
+    def?:{
+        tip?:string;
+        name?:string;
+        phone?:string;
+    };
 };
 
 type Close = ()=>void;
@@ -19,7 +25,7 @@ export const AddContactWindow = (props:Props) => {
 
     return (
         <ModalWindow close={props.close} title='Add contact'>
-            <ContactForm submit={submit}/>
+            <ContactForm def={props.def} submit={submit}/>
         </ModalWindow>
     );
 };

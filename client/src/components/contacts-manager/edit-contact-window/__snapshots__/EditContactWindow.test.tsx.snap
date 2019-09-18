@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditContactWindow Should match snapshot 1`] = `
+<Component
+  close={[MockFunction]}
+  title="Edit «name»"
+>
+  <Component
+    def={
+      Object {
+        "name": "name",
+        "phone": "+380951423253",
+        "tip": undefined,
+      }
+    }
+    submit={[Function]}
+  />
+</Component>
+`;

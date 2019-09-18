@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactForm Should match snapshot 1`] = `
+<div
+  className="main"
+>
+  <div
+    className="inputWrapper"
+  >
+    <label>
+      Name:
+    </label>
+    <input
+      autoFocus={true}
+      defaultValue=""
+      maxLength={30}
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      type="text"
+    />
+  </div>
+  <div
+    className="inputWrapper"
+  >
+    <label>
+      Phone:
+    </label>
+    <input
+      defaultValue=""
+      maxLength={30}
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      type="text"
+    />
+  </div>
+  <div
+    className="inputWrapper"
+  >
+    <label>
+      Tip:
+    </label>
+    <input
+      defaultValue=""
+      maxLength={30}
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      type="text"
+    />
+  </div>
+  <Foot
+    isDataValid={true}
+    submit={[Function]}
+  />
+</div>
+`;

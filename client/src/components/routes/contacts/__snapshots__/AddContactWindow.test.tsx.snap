@@ -1,23 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`AddContactWindow, root version Should match snapshot 1`] = `
-<Component
-  addContact={[MockFunction]}
-  close={[MockFunction]}
-  contacts={Array []}
-/>
-`;
-
-exports[`AddContactWindow, root version Should match snapshot if active 1`] = `
-<Component
-  addContact={[MockFunction]}
-  close={[MockFunction]}
-  contacts={Array []}
-/>
-`;
-
-exports[`AddContactWindow, root version Should match snapshot if not active 1`] = `""`;
-
 exports[`AddContactWindow, root version Should match snapshot when active 1`] = `
 <Component
   addContact={[MockFunction]}
@@ -27,5 +9,3 @@ exports[`AddContactWindow, root version Should match snapshot when active 1`] = 
 `;
 
 exports[`AddContactWindow, root version Should match snapshot when not active 1`] = `""`;
-
-exports[`AddContactWindow, root version Should not render if is not active 1`] = `""`;

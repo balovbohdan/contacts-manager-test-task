@@ -1,8 +1,8 @@
 import * as React from 'react';
 import classnames from 'classnames';
 
-import {findContact} from '@lib/entities/contacts';
 import {ModalWindow} from '@components/modal-window';
+import {findContact} from '@lib/entities/contacts/utils';
 
 import * as T from './types';
 import * as css from './ContactWindow.css';

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddContactWindow Should match snapshot 1`] = `
+<Component
+  close={[MockFunction]}
+  title="Add contact"
+>
+  <Component
+    submit={[Function]}
+  />
+</Component>
+`;

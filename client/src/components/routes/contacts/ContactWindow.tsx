@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-import {findContact} from '@lib/entities/contacts';
 import {T, utils} from '@lib/entities/calls-history';
+import {findContact} from '@lib/entities/contacts/utils';
 import {Contacts} from '@lib/entities/contacts/contact/types';
 
 import {T as Actions} from '@storehouse/actions/contacts';

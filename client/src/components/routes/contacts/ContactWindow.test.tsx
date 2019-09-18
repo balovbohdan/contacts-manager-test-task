@@ -12,8 +12,13 @@ describe('ContactWindow, root version', () => {
         toggleEditWindow: jest.fn(),
         fetchCallsHistory: jest.fn(),
 
-        contacts: [],
-        active: true,
+        contacts: [{
+            id: 1,
+            name: 'name',
+            img: '/user.svg',
+            phone: '+380927163543'
+        }],
+        active: 1,
         callsHistory: {}
     };
 

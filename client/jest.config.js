@@ -10,7 +10,9 @@ module.exports = {
     setupFilesAfterEnv: ['<rootDir>/__tests__/setup-after-env.js'],
 
     coveragePathIgnorePatterns: [
+        'index.ts',
         'node_modules',
+        'redux-connect-props',
         '<rootDir>/src/index.tsx',
         '<rootDir>/src/config.ts'
     ],

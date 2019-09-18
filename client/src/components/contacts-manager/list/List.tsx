@@ -1,5 +1,5 @@
 import * as React from 'react';
-import InfiniteScroll from 'react-infinite-scroll-component';
+import * as InfiniteScroll from 'react-infinite-scroll-component';
 
 import * as css from './List.css';
 import * as T from './types';

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contacts list Should match snapshot 1`] = `
+<Component
+  fetchContacts={[Function]}
+>
+  <Scroller
+    contactsQty={1}
+    fetchMore={[Function]}
+    hasMore={true}
+  >
+    <Items
+      contacts={
+        Array [
+          Object {
+            "id": 1,
+            "img": "/user.svg",
+            "name": "name",
+            "phone": "+380975142353",
+          },
+        ]
+      }
+      toggleContactWindow={[MockFunction]}
+    />
+  </Scroller>
+</Component>
+`;

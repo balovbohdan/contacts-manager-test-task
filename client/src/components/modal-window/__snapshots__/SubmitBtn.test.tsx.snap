@@ -2,7 +2,7 @@
 
 exports[`Submit modal window btn Should match snapshot 1`] = `
 <div
-  className=""
+  className="submitBtn"
   onClick={[Function]}
 >
   Submit

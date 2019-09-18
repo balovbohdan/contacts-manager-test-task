@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact Should match snapshot 1`] = `
+<div
+  className="main"
+  onClick={[Function]}
+>
+  <Avatar
+    img="/user.svg"
+  />
+  <Name
+    name="name"
+  />
+</div>
+`;

@@ -7,8 +7,8 @@ import * as css from '../../modal-window/ModalWindow.css';
 describe('AddContactWindow, root version', () => {
     it('Should match snapshot when active', () => {
         const props = {
-            active: true,
             contacts: [],
+            active: true,
             close: jest.fn(),
             addContact: jest.fn()
         };
@@ -20,8 +20,8 @@ describe('AddContactWindow, root version', () => {
 
     it('Should match snapshot when not active', () => {
         const props = {
-            active: false,
             contacts: [],
+            active: false,
             close: jest.fn(),
             addContact: jest.fn()
         };

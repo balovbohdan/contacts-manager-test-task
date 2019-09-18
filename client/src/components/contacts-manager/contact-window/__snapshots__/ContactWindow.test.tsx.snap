@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactWindow Should match snapshot 1`] = `
+<Component
+  close={[MockFunction]}
+  title="name"
+>
+  <Body
+    call={[MockFunction]}
+    callsHistory={Object {}}
+    close={[MockFunction]}
+    contacts={
+      Array [
+        Object {
+          "id": 1,
+          "img": "/user.svg",
+          "name": "name",
+          "phone": "+380959182534",
+        },
+      ]
+    }
+    fetchCallsHistory={[MockFunction]}
+    id={1}
+    img="/user.svg"
+    phone="+380959182534"
+    remove={[MockFunction]}
+    toggleEditWindow={[MockFunction]}
+  />
+</Component>
+`;

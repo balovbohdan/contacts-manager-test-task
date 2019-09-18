@@ -1,12 +1,12 @@
 import * as React from 'react';
 
+import {findContact} from '@lib/entities/contacts/utils';
 import {Contacts} from '@lib/entities/contacts/contact/types';
 import {EditContact} from '@storehouse/actions/contacts/types';
 
 import {
     EditContactWindow as Base
 } from '@components/contacts-manager/edit-contact-window';
-import {findContact} from '@lib/entities/contacts';
 
 type Props = {
     close:()=>void;

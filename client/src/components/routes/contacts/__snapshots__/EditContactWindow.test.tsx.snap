@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditContactWindow, root version Should match snapshot when active 1`] = `
+<Component
+  close={[MockFunction]}
+  contact={
+    Object {
+      "id": 1,
+      "img": "/user.svg",
+      "name": "name",
+      "phone": "+380967164354",
+    }
+  }
+  edit={[MockFunction]}
+/>
+`;
+
+exports[`EditContactWindow, root version Should match snapshot when not active 1`] = `""`;
