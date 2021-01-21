@@ -65,7 +65,7 @@
     "classnames": "^2.2.6",
     "graphql": "^14.5.4",
     "graphql-tag": "^2.10.1",
-    "immer": "^3.2.1",
+    "immer": "^8.0.1",
     "lodash": "^4.17.15",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
